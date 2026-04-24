@@ -1,0 +1,22 @@
+{
+  "name": "magicfuse-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server that answers Salesforce partner discovery questions",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "mcp",
+    "salesforce",
+    "magicfuse"
+  ],
+  "author": "MagicFuse",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.4",
+    "zod": "^3.25.76"
+  }
+}
