@@ -1,0 +1,128 @@
+{
+  "generated_unix": 1777038712,
+  "fetched": 19,
+  "failed": 1,
+  "crawl_enabled": true,
+  "allowed_domains": [
+    "developer.salesforce.com",
+    "help.salesforce.com",
+    "trailhead.salesforce.com",
+    "www.salesforce.com"
+  ],
+  "rows": [
+    {
+      "url": "https://help.salesforce.com",
+      "title": "Salesforce Help",
+      "output_file": "help.salesforce.com.txt",
+      "fetched_unix": 1777038681
+    },
+    {
+      "url": "https://www.salesforce.com/agentforce/",
+      "title": "Agentforce: The AI Agent Platform | Salesforce",
+      "output_file": "www.salesforce.com__agentforce.txt",
+      "fetched_unix": 1777038682
+    },
+    {
+      "url": "https://www.salesforce.com/data/",
+      "title": "Data 360 (Formerly Data Cloud) | Salesforce",
+      "output_file": "www.salesforce.com__data.txt",
+      "fetched_unix": 1777038684
+    },
+    {
+      "url": "https://www.salesforce.com/platform/",
+      "title": "Agentforce 360 Platform (Formerly Salesforce Platform) | Salesforce",
+      "output_file": "www.salesforce.com__platform.txt",
+      "fetched_unix": 1777038685
+    },
+    {
+      "url": "https://trailhead.salesforce.com",
+      "title": "Trailhead | The fun way to learn",
+      "output_file": "trailhead.salesforce.com.txt",
+      "fetched_unix": 1777038686
+    },
+    {
+      "url": "https://www.salesforce.com/",
+      "title": "Salesforce: The #1 AI CRM | Salesforce",
+      "output_file": "www.salesforce.com.txt",
+      "fetched_unix": 1777038687
+    },
+    {
+      "url": "https://www.salesforce.com/products/",
+      "title": "Complete Salesforce Products &amp; Software Suite | Salesforce",
+      "output_file": "www.salesforce.com__products.txt",
+      "fetched_unix": 1777038689
+    },
+    {
+      "url": "https://www.salesforce.com/agentforce/how-it-works/",
+      "title": "How Does Agentforce Work? | Salesforce",
+      "output_file": "www.salesforce.com__agentforce__how-it-works.txt",
+      "fetched_unix": 1777038691
+    },
+    {
+      "url": "https://www.salesforce.com/agentforce/why/",
+      "title": "Why Choose Agentforce? | Salesforce",
+      "output_file": "www.salesforce.com__agentforce__why.txt",
+      "fetched_unix": 1777038693
+    },
+    {
+      "url": "https://www.salesforce.com/agentforce/agent-builder/",
+      "title": "AI Agent Builder: Agentforce | Salesforce",
+      "output_file": "www.salesforce.com__agentforce__agent-builder.txt",
+      "fetched_unix": 1777038695
+    },
+    {
+      "url": "https://www.salesforce.com/agentforce/voice/",
+      "title": "Agentforce Voice: AI Voice Agents For Every Channel | Salesforce",
+      "output_file": "www.salesforce.com__agentforce__voice.txt",
+      "fetched_unix": 1777038696
+    },
+    {
+      "url": "https://www.salesforce.com/agentforce/dev-tools/",
+      "title": "Agentforce for Developers | Salesforce",
+      "output_file": "www.salesforce.com__agentforce__dev-tools.txt",
+      "fetched_unix": 1777038698
+    },
+    {
+      "url": "https://www.salesforce.com/agentforce/agentexchange/",
+      "title": "AgentExchange \u2013 AI Agent Marketplace | Salesforce",
+      "output_file": "www.salesforce.com__agentforce__agentexchange.txt",
+      "fetched_unix": 1777038699
+    },
+    {
+      "url": "https://www.salesforce.com/agentforce/agentforce-supply-chain/",
+      "title": "Agentforce Supply Chain | Salesforce",
+      "output_file": "www.salesforce.com__agentforce__agentforce-supply-chain.txt",
+      "fetched_unix": 1777038701
+    },
+    {
+      "url": "https://www.salesforce.com/agentforce/customer-stories/",
+      "title": "Agentforce Customer Stories | Salesforce",
+      "output_file": "www.salesforce.com__agentforce__customer-stories.txt",
+      "fetched_unix": 1777038703
+    },
+    {
+      "url": "https://www.salesforce.com/agentforce/use-cases/",
+      "title": "AI Agent Use Cases | Salesforce",
+      "output_file": "www.salesforce.com__agentforce__use-cases.txt",
+      "fetched_unix": 1777038705
+    },
+    {
+      "url": "https://www.salesforce.com/agentforce/pricing/",
+      "title": "Salesforce Agentforce Pricing | Salesforce",
+      "output_file": "www.salesforce.com__agentforce__pricing.txt",
+      "fetched_unix": 1777038708
+    },
+    {
+      "url": "https://www.salesforce.com/sales/",
+      "title": "Sales Software &amp; Solutions Powered by AI | Salesforce",
+      "output_file": "www.salesforce.com__sales.txt",
+      "fetched_unix": 1777038709
+    },
+    {
+      "url": "https://www.salesforce.com/sales/cloud/",
+      "title": "Sales Force Automation Software by Sales Cloud | Salesforce",
+      "output_file": "www.salesforce.com__sales__cloud.txt",
+      "fetched_unix": 1777038711
+    }
+  ]
+}
