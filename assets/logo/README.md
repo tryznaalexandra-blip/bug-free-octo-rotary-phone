@@ -3,6 +3,7 @@
 Primary logo file:
 
 - `salesforce-consultant-copilot-logo.svg`
+- `magicfuse-style-salesforce-cloud-logo.svg`
 
 This SVG is optimized for app icons and profile images:
 
@@ -10,6 +11,10 @@ This SVG is optimized for app icons and profile images:
 - dark blue gradient background
 - stylized cloud + chat bubble + AI spark motif
 - high-contrast white/cyan details
+
+`magicfuse-style-salesforce-cloud-logo.svg` follows a darker orange-accent
+visual direction inspired by the MagicFuse brand style, while using a
+Salesforce-cloud-centered symbol treatment.
 
 ### Optional PNG export
 
