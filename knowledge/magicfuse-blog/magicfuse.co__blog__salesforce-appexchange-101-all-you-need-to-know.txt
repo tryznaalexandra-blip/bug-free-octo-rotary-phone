@@ -1,0 +1,189 @@
+Source URL: https://magicfuse.co/blog/salesforce-appexchange-101-all-you-need-to-know
+Title: Salesforce AppExchange 101: All You Need to Know
+Fetched at (unix): 1777287409
+
+Introduction
+
+According to TriFin Labs, 71% of Salesforce customers actively use apps from the AppExchange. Would you like to improve your business processes on the Salesforce CRM platform? Are you seeking a solution to simplify signing documents and closing deals faster or streamline permissions management? Salesforce AppExchange apps meet your needs.
+
+From this article, you’ll learn:
+
+what is Salesforce AppExchange
+what benefits you can get from it
+why companies and developers build apps for this marketplace
+the most popular apps, solutions, and consulting services on AppExchange
+unravel the secret of the powerful AppExchange community
+get a step-by-step guide on how to present your product on AppExchange.
+From Pre-Apple App Store Concept to a Full-Scale Salesforce Marketplace or What Salesforce AppExchange Is
+
+In the early 2000s, Marc Benioff, the CEO of Salesforce.com, had an inspiring conversation with Steve Jobs, who advised him to build a cloud software ecosystem. Years later, the idea to create a place where developers from all over the world could present their apps for the Salesforce platform, and any Salesforce user could access and download them came to Marc Benioff’s mind.
+
+So, AppStore.com, the Salesforce store, was launched in 2006 as an extension of Force.com. It was the first app store where you could sell and distribute the apps built on the Salesforce platform. Marc Benioff owned the “App Store” trademark. But, when Apple launched the App Store in 2008, he decided to give Apple the trademark and domain name as a gift. In turn, the Salesforce marketplace was renamed AppExchange.
+
+How Big Is the AppExchange Marketplace?
+
+AppExchange is a complete enterprise marketplace providing cloud-computing apps, solutions, and consulting services. In 2019 the website had 7.5 million installs, 4,000+ solutions, and 90,000 reviews. Furthermore, new products launch every week. There are many free and paid apps, among which you can choose appropriate ones for your business. All Salesforce AppExchange apps and services are divided into four main directions:
+
+Solutions by Types: Apps, Bolt Solutions, Flow Solutions, Lightning Data, and Components
+Product Collections: Sales Cloud, Service Cloud, Marketing Cloud, Commerce Cloud, Platform, Einstein Analytics, Financial Services Cloud, etc.
+Industry Collections: communications, education, government, media, retail, etc.
+Top Categories: finance, human resources, enterprise resource planning, sales, etc.
+Why Companies and Salesforce Developers Are Making Apps for AppExchange
+
+Salesforce AppExchange cloud marketplace presents top-notch apps for sales, marketing, analytics, customer service, and more. 95% of Fortune 100 companies use at least one of the Salesforce AppExchange apps.
+
+It makes sense for companies and Salesforce developers to publish their Salesforce solutions on AppExchange. You can present your useful extensions for Salesforce on the large professional market and increase your yield.
+
+Moreover, you can join the Salesforce Partner Community and get access to the Partner Business Org, so you’ll be able to manage the sale and distribution of your apps and evolve with Salesforce.
+
+Thanks to the user-friendly interface of the marketplace, you’ll be able to check analytics about your apps and view other apps. Moreover, Salesforce can include ads for your app in its weekly AppExchange Digest email to expand your audience.
+
+The Most Popular Apps on AppExchange
+
+AppExchange marketplace offers many apps which can meet your business needs and help you scale. There are the most popular apps in the top categories
+
+Category: Finance
+
+[Blackthorn Payment](Blackthorn Payment) is used for processing mobile payments, PCI-compliant credit card & ACH payments, subscriptions via Stripe, Authorize.net, and PayPal.
+
+Category: Human Resources
+
+[Recruiting App](Recruiting App) is a basic app for tracking open positions and information about candidates.
+
+Category: Enterprise Resource Planning
+
+Zenkraft Multi-Carrierallows shipping and tracking packages with 60+ shipping carriers (FedEx, UPS, DHL, etc.) inside Salesforce CRM.
+
+Category: Sales
+
+Trail Tracker is a free app for learning the Salesforce dashboard on Trailhead in the form of the adventure game.
+
+Category: Customer Service
+
+DocuSign eSignature for Salesforce is an eSignature solution for sending, signing, tracking, and saving documents.
+
+Category: IT & Administration
+
+Element Catalyst is a useful tool for managing the whole implementation lifecycle of Salesforce: capture requirements and users stories, map business processes, document and drive adoption of your Org.
+
+Category: Marketing
+
+Mailchimp Integration App is for sending, automating, and reporting your Mailchimp campaigns in your CRM.
+
+Category: Integration
+
+dataloader.io is a cloud solution for importing, exporting, and deleting Salesforce data.
+
+Category: Salesforce Labs
+
+In-App Guidance is useful for user adaptation of five main Salesforce features in Lightning Experience.
+
+Category: Analytics
+
+Rollup Helper is used for rolling up any Salesforce data (sum, max, min, percent, etc.) with clicks, not code.
+
+Solution or Consultant?
+
+Salesforce AppExchange marketplace isn’t only about apps; it also provides ready-to-use solutions, with the help of which you can expand Salesforce CRM’s functionality. They are speedy and easy to deploy in your CRM. Here, you’ll find out such options:
+
+Bolt Solutions
+Flow Solutions
+Lighting Data
+Components
+
+Bolt Solutions mean industry solutions for Salesforce Communities. In other words, they are pre-built templates, which you can deploy on Salesforce quickly. Bolt solutions include a set of necessary components, such as industrial process flows, Lightning components, apps, and Communities.
+
+While deploying the Bolt solution, you’ll need the services of the partner who built the Bolt and can help to customize it.
+
+Flow Solutions are different partner-built integrations. They are functional elements that simplify the processes of creating flows and performing actions on third-party systems. Using them, you can automate business processes without from-scratch integration or coding.
+
+For example, you can set such processes as sending messages, conducting a credit check, and processing payments. Salesforce partners use Flow Builder and Process Builder for creating configurable Lightning flow actions and templates.
+
+Lightning Data is high-quality data that connects your Salesforce org and third-party data feed via the Lightning Data Engine. All your data is updated in real-time and helps power essential sales and marketing processes.
+
+Components are building elements for creating apps and Bold solutions and customizing web pages in Lighting. Utilizing them, you can also add functionality to your apps and pages without coding skills. Some components available on AppExchange are created by Salesforce developers (known as Salesforce Labs) and Salesforce partners.
+
+Are you confused about finding the best solution for your business on AppExchange? Or don’t you want to waste your time and money seeking and customizing AppExchange products? Then, you need to go directly to consultants, who can help, guide, and support you.
+
+There are over 1,000 Salesforce-certified consultants on AppExchange. They can consult you better what is the Salesforce AppExchange in detail and recommend the best custom solution based on their industry knowledge and experience. Also, specialists can assist in designing the requirements if you want to develop a custom Salesforce solution or integration. Together, you’ll be able to accomplish your project faster and more professionally.
+
+Step-by-Step Guide On How To Get Into AppExchange
+Step 1: Join the Partner Community
+
+The Salesforce Partner Community is a place where you can connect and collaborate with Salesforce experts and discover best practices. After you join the Partner Community, you get access to a free Partner Business Org. It includes the License Management App, Channel Order App, and Environment Hub, which are useful tools for managing AppExchange offerings, tracking orders with Salesforce, and logging in to Salesforce orgs.
+
+Step 2: Strategise and Build Your AppExchange App
+
+Now you need to consider what app type you want to build, what tools you need, etc. When you’ve created a strategic plan, it’s time to build the app. Сreate and manage two main orgs: development and packaging ones by using the Environment Hub app.
+
+Write code, add business logics, create Lighting components, develop Apex Classes, and adjust any custom settings by using the development org. Then, migrate the components of your app to a packaging org with the help of the Force.com IDE. After that, create a managed package with components for a final app.
+
+Step 3: AppExchange Security Review
+Prepare: view the Security Review Requirements and make sure your app meets the security standards required on AppExchange.
+Test: pass the required Security Review that evaluates the app’s security characteristics.
+Free trial: set a free trial option before launching the app.
+Launch: once the app meets all the necessary guidelines, it’s ready to be launched in the app store.
+Step 4: Design the AppExchange Listing
+
+Increase the visibility of your app and engage prospective clients by building an attractive AppExchange listing:
+
+Ensure you have listing access (enable the “Manage Listings” option in your Partner Community profile).
+
+If you have a managed package, link it to the listing by following the steps of the ISVforce guide.
+
+Fill out your listing information (listing name, comprehensive description, logo).
+
+Add carousel screenshots with a final call-to-action slide, and demo video.
+
+Add pricing.
+
+Paste your target audience, SEO keywords, and primary use case in the tagline.
+
+For instance, Cloudingo, an app for improving and better managing Salesforce data, has a well-structured listing including slides, video presentation, CTA (sign up for a free trial), and the app’s main features.), an app for improving and better managing Salesforce data, has a well-structured listing including slides, video presentation, CTA (sign up for a free trial), and the app’s main features.
+
+Step 5: Manage App Licenses and Customer Support
+
+Your app is ready and it’s time to sell it. There are different licensing options, which you can offer to your customers:
+
+Per-User License: only a given number of users in a customer org gets access to the app.
+Site License: all users in a customer org can use the app.
+Free Trial and Time Limit: your customers get a free trial of the app, and you can set certain time limits.
+Free Solution: any free app comes with a license, usually with a site license. Note: if your app is a part of the product you sell, it isn’t free; its license is tied to the product.
+
+Also, you must provide your customers professional support to make a great impression and retain them. The customer support lifecycle consists of such stages as:
+
+Customer Success Planning: determine a customer’s experience and challenges, which your customers can face, and identify workings solutions to help them if necessary.
+Troubleshooting: communicate with your customers and find any issues during their experience with your app in their orgs.
+Release Management: create a plan for releasing updates and inform your customers about them.
+The Power of AppExchange Community
+
+One of the essential features of the AppExchange is its community. Join the All About AppExchange Apps group in the Salesforce TrailBlazer Community, ask actual questions, and share your own insights with other app developers.
+
+Also, you can read reviews on the app’s page to learn more about a certain app. Users share their app experience and provide useful information about its functionality.
+
+Conclusion
+
+AppExchange is a great marketplace where various apps and solutions can be used to upgrade your Salesforce CRM and boost your business. Moreover, it provides a perfect opportunity to develop and launch your own Salesforce app and earn money if you’re an independent developer.
+
+Knowing all the attributes of what is AppExchange in Salesforce, you’ll be like a duck taking to water and using all the benefits of this marketplace.
+
+FAQ
+What are the five types of AppExchange solutions?
+
+There are five types of AppExchange solutions - Apps, Bolt Solutions, components, Flow solutions and Lightning data- and each one has its own features.
+
+How many apps are on AppExchange?
+
+The Salesforce AppExchange has more than 3,000 applications.
+
+What are the two types of apps in Salesforce?
+
+Salesforce.com has two types of apps that you can install: Classic and Lightning. Classic apps are the apps that have been around the longest. Lightning apps are the newest apps. The advantage of Lightning apps are that you can design them on the screen according to your requirement. The advantage of Classic apps is that you can always access them even when you do not have access to the Internet. Both kinds of apps may be modified to fit your users’ working styles.
+
+Salesforce AppExchange
+Last updated:
+5 November 2025
+By:
+Volodymyr Babin
+
+Head of Salesforce Delivery at MagicFuse, certified Salesforce Architect with 13+ years of experience

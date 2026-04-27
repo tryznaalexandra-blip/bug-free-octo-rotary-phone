@@ -1,0 +1,188 @@
+Source URL: https://magicfuse.co/blog/2gp-developer-guide
+Title: 2GP Developer Guide: A Complete Guide to Second-Generation Managed Packaging
+Fetched at (unix): 1777287282
+
+What if you could build and release Salesforce applications without being tied to a production org? What if every package version was seamlessly managed, and dependencies were automatically handled? That’s exactly what Second-Generation Managed Packages (2GP) offer.
+
+For Salesforce developers and AppExchange partners, 2GP replaces First-Generation Managed Packages (1GP) with a modular, source-driven model. Instead of using a persistent packaging org, developers manage package creation through Salesforce DX, leveraging scratch orgs, a source control system, and automated push upgrades.
+
+This guide covers everything from package directory structure to version control, patch versions, and package metadata, ensuring smooth deployment in a Dev Hub org.
+
+What’s a Second-Generation Managed Package?
+
+A 2GP package is a modern, source-driven solution designed to streamline application development, distribution, and version control within a Salesforce DX project. Unlike 1GP, where metadata was stored within the package itself, 2GP relies on an external version control system to manage metadata separately.
+
+Patch orgs and manual updates are replaced with a structured approach using Salesforce DX project files (sfdx-project.json) to define metadata structure. This model enables automated package dependencies, versioning, and improved collaboration across development teams.
+
+Developers can now create, test, and release one or more packages using a Dev Hub environment, with all configurations defined in a JSON file.
+
+Core Components of 2GP
+Modular Packages – 2GP organizes metadata in a package directory, allowing for better package creation and version control.
+Version-Controlled Source Code – Every new package version is tracked in a source control system, ensuring consistency.
+Enhanced Dependency Management – Developers can explicitly define package dependencies in sfdx-project.json, ensuring seamless integration between managed packages.
+Salesforce CLI & API Integration – Developers perform package creation using Salesforce CLI commands within a Salesforce DX project.
+Flexible Package Ancestry - Supports patch versions, beta version releases, and rollback strategies.
+Differences Between 1GP and 2GP
+
+The transition from 1GP to 2GP represents a significant shift in Salesforce's packaging strategy. The following table outlines the key differences between the two generations unlocked packages:​
+
+Why Switch to 2GP?
+
+With Second-Generation Managed Packages, development is fully source-driven, allowing ISVs, System Integrators, and Salesforce Developers to improve package metadata management.
+
+Advantages of Adopting 2GP for AppExchange Development
+Decouples package creation from production orgs, improving scalability.
+Enables multiple namespaces, simplifying dependency management.
+Facilitates push upgrades, ensuring seamless package updates.
+Automates package version tracking in a Dev Hub.
+Supports package dependencies between multiple packages.
+Key Features of 2GP
+
+Flexible Versioning and Package Ancestry – Unlike 1GP, 2GP allows skipping, rolling back, or branching versions, giving developers more control over release strategy.
+
+No Need for a Persistent Packaging Org – Eliminates the need for a dedicated packaging org by managing everything through Salesforce CLI and a source control system, reducing overhead and inconsistencies.
+
+CI/CD Integration – Supports automated builds, testing, and deployments, enabling seamless integration into DevOps workflows.
+
+Enhanced Security and Compliance – Ensures easier security tracking, enforces code coverage requirements, and enables push upgrades for minimal downtime on AppExchange.
+
+Setting Up Your Development Environment
+
+To create and manage a 2GP package Salesforce, you need to configure your Dev Hub, define package metadata, and work within a structured project directory.
+
+Enabling Dev Hub and Assigning 2GP Permissions
+
+The Dev Hub is the central control point for 2GP. It enables package versioning, scratch org creation, and namespace management. Without Dev Hub, you won’t be able to develop or release 2GPs.
+
+Dev Hub is available in Enterprise, Performance, and Unlimited editions but is not enabled by default.
+
+Enabling Dev Hub & Assigning Permissions
+Log in to Salesforce Setup and enable Dev Hub.
+Assign permissions for package creation, scratch org management, and package metadata access.
+Define a Salesforce DX project with a package directory in your project file.
+Creating and Managing Scratch Orgs
+
+Scratch orgs are temporary Salesforce environments designed specifically for development and testing.
+
+When setting up a scratch org, developers specify configurations in the project directory, ensuring a consistent environment for testing and package development. Scratch orgs are not designed for long-term package development - they are temporary environments for isolated testing and iteration. Each scratch org exists for a limited period (7–30 days) and does not store package metadata permanently.
+
+Why Scratch Orgs Matter in 2GP
+
+Isolated Development: Each scratch org is a clean environment that prevents conflicts with other ongoing projects.
+Automated Testing: Developers can quickly validate package functionality in a controlled setting.
+Org Flexibility: Scratch orgs can be configured based on specific development needs, ensuring the right features and settings are available. After enabling Dev Hub, developers can create scratch orgs by defining the project file required edition, settings, and enabled features. Each scratch org remains active for up to 30 days before it automatically expires.
+Registering and Configuring a Namespace for 2GP
+
+How to Register a Namespace?
+
+The namespace registration process is managed within Salesforce Setup. After navigating to Namespace Manager, developers can request a new namespace prefix. Once Salesforce approves the request, the namespace is linked to the Dev Hub org, allowing it to be used across different 2GPs.
+
+Assigning the Namespace to Packages
+
+Once the namespace is registered, developers need to ensure that it is associated with all relevant package components. This ensures consistency across all package versions and prevents any conflicts when distributing updates.
+
+Once the Dev Hub, scratch orgs, and namespace are configured, verify that:
+
+Developers have the correct permissions to create and manage packages in 2GP.
+Scratch org expiration policies align with your development cycles.
+The namespace is properly linked to all relevant package components.
+
+With the right environment setup, 2GP development becomes more structured, scalable, and efficient, reducing org-based dependencies while improving team collaboration.
+
+Scratch Orgs and Package Development Workflow
+
+Scratch orgs play a crucial role in Second-Generation Managed Packaging (2GP) by providing a temporary, customizable environment for development and testing.
+
+Unlike traditional sandbox orgs, which persist indefinitely and require manual refreshes, scratch orgs are ephemeral - they exist only for the duration of development and can be easily discarded or recreated. This flexibility aligns with source-driven development and modern DevOps practices, making scratch orgs an essential tool for Salesforce developers and AppExchange partners working with 2GP.
+
+The Role of Scratch Orgs in 2GP Development and Testing
+
+In 2GP, packages are no longer tied to a persistent packaging org. Instead, all development happens in scratch orgs, which serve as isolated workspaces for building, testing, and validating changes before pushing them to version control. This approach ensures that developers are working with consistent, reproducible environments that match production settings.
+
+Isolated Testing Environments - Each scratch org is independent and does not interfere with production or other development environments.
+Consistent Development Workflow - Developers work in controlled, repeatable environments, ensuring that features behave as expected across orgs.
+Faster Debugging and Deployment - Because scratch orgs are easy to create and delete, teams can iterate quickly without the risk of corrupting an org’s metadata.
+Version Control Integration - Developers can test package updates before merging them into a shared repository, reducing errors and improving stability.
+Managing Scratch Orgs in 2GP
+
+Scratch orgs are managed using Salesforce Dev Hub and are created with specific configurations based on project requirements. Each scratch org can be configured with different Salesforce editions, features, and metadata settings to match various development and testing scenarios.
+
+Here’s how Scratch Orgs support the 2GP workflow:
+
+Developers define a configuration template that specifies which features and settings should be enabled.
+A scratch org is created based on this template, providing a clean environment for development.
+Developers push metadata and package components into the scratch org for testing.
+Once testing is complete, changes are committed to version control, and the scratch org is deleted. Scratch orgs expire automatically after a set period (default: 7 days, maximum: 30 days). If an org is no longer needed, it can be manually deleted and replaced with a fresh instance.
+Creating Package Versions in 2GP
+
+One of the major benefits of 2GP is the ability to create and manage multiple package versions efficiently. Unlike 1GP, where versions had to be built and managed within a dedicated packaging org, 2GP allows developers to create package versions directly from their source repository.
+
+The 2GP Package Versioning Workflow:
+
+Developers work in scratch orgs, making modifications to the package components.
+Once changes are tested, metadata is committed to a version control system like Git.
+A new package version is created using Salesforce packaging tools, defining dependencies, release notes, and version numbers.
+Package updates are pushed to the AppExchange or distributed internally to other teams.
+Creating and Registering a Namespace for 2GP
+
+A namespace is a unique identifier that prevents naming conflicts within Salesforce packages. In Second-Generation Managed Packaging (2GP), a single namespace can be shared across multiple packages, simplifying dependency management and ensuring seamless integration between related components.
+
+Registering a Namespace and Linking It to Dev Hub
+
+To create a namespace, log in to a Salesforce Developer Edition org and navigate to Setup → Namespace Manager. Register a unique namespace prefix, which will be permanently associated with the org. Since namespaces cannot be modified later, it’s important to choose a name that reflects your brand or product line.
+
+Once registered, the namespace must be linked to the Dev Hub org where 2GP packages will be managed. This is done through Namespace Manager, where the previously registered namespace can be selected and linked. Once linked, all scratch orgs created under this Dev Hub will inherit the namespace automatically.
+
+Importance of Namespace Management
+
+Namespaces ensure package isolation and prevent conflicts with other Salesforce applications. Unlike First-Generation Managed Packages (1GP), which required a separate namespace for each package, 2GP allows multiple packages to share a single namespace, making it easier to manage updates and dependencies. This is especially useful for ISVs distributing applications on the AppExchange, as it improves compatibility between modular packages and simplifies package versioning.
+
+Once a namespace is set up and linked to Dev Hub, it becomes a core part of package development and distribution, ensuring structured and scalable application management.
+
+Developing 2-Gen Managed Packages
+
+Developers define a Salesforce DX project, store metadata in a package directory, and track changes using a source control system. The package creation process follows structured versioning, with updates managed via patch orgs.
+
+AppExchange Readiness Checklist
+✔ Security Review
+Enforce Apex code best practices.
+Ensure cookie consent manager compliance.
+Check authentication cookies and security.
+✔ Metadata & Packaging
+Optimize package directory structure.
+Verify package metadata in the project file.
+✔ Testing & Compliance
+Validate functional cookies enhance functions in Salesforce UI.
+Ensure advertising and functional cookies compliance.
+Conclusion
+
+By leveraging Second-Generation Packaging, Salesforce developers can streamline package creation, manage multiple namespaces, and enforce structured version control. The ability to automate package versions, push upgrades, and manage multiple packages makes 2GP a scalable packaging solution.
+
+For expert assistance in Salesforce DX project setup, Salesforce CLI automation, or package directory optimization, MagicFuse can help.
+
+Contact us to optimize your 2GP implementation and AppExchange success.
+
+FAQs
+What is a 2GP package in Salesforce?
+
+A 2GP package is a second-generation managed package that supports source-driven development, package versioning, and CI/CD automation.
+
+How does a Dev Hub org support package creation?
+
+A Dev Hub org allows developers to define a Salesforce DX project, create new package versions, and manage scratch orgs for testing.
+
+What is the role of a package directory?
+
+A package directory organizes package metadata in a project directory, ensuring proper source control and versioning.
+
+How do push upgrades work in 2GP?
+
+Push upgrades are only available for managed packages and must be initiated by the AppExchange publisher. Additionally, Salesforce enforces limitations on push upgrades, including customer opt-out options.
+
+Salesforce
+Last updated:
+7 October 2025
+By:
+Volodymyr Babin
+
+Head of Salesforce Delivery at MagicFuse, certified Salesforce Architect with 13+ years of experience

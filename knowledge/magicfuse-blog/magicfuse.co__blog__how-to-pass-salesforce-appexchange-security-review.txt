@@ -1,0 +1,216 @@
+Source URL: https://magicfuse.co/blog/how-to-pass-salesforce-appexchange-security-review
+Title: Salesforce AppExchange Security Review: Updates and Tips for Passing
+Fetched at (unix): 1777287379
+
+Salesforce doesn't joke about the security of its products and users' data. With the growing popularity of AppExchange, a trusted marketplace that had over 7,000 ready-to-install solutions, 80,000 peer evaluations, and 6 million client installs in 2025, Salesforce still keeps its security standards in the same (great) shape.
+
+The Salesforce Product Security team carefully monitors the marketplace's security and the products it provides by conducting a Salesforce Security Review. So, if you publish your solution on the AppExchange app, security has to be a key feature.
+
+You'll find all the necessary information about the Salesforce AppExchange Security Review in this article. You'll learn how to prepare for this process to complete it successfully in the Salesforce security implementation guide. You'll learn how the Security Review works and what to do if you didn't pass it on your first try. The icing on the cake will be a comprehensive checklist that will help you prepare and pass the Security Review triumphantly.
+
+What Is Salesforce AppExchange Security Review?
+
+AppExchange Security Review is the process of verifying the app's vulnerability to the most common attacks. The Salesforce security team conducts meticulous tests before adding the app to the AppExchange marketplace. There are Salesforce's strict security requirements, which the app has to meet. It's important to ensure customers that any AppExchange app has the highest level of protection for their data by following best practices.
+
+Pricing:
+The Initial Security Review: $999 for paid applications charged per app version.
+Free Applications: No fee for the security review.
+
+If a paid application fails the initial review and requires resubmission due to code changes, an additional $999 fee applies for each subsequent review attempt.
+
+For free apps, developers can request a fee waiver code to bypass the $999 fee during the security review submission process.
+
+Expanded Testing for AI-Driven Vulnerabilities
+
+As more applications leverage artificial intelligence and machine learning, Salesforce has expanded its security review to address AI-specific risks. These include adversarial inputs, model drift, and improper handling of sensitive data within AI models. Applications are now assessed for secure model design, responsible data usage, and protection against manipulation such as adversarial inputs or data poisoning attacks.
+
+Zero-Trust Security Requirements
+
+Salesforce now recommends that applications implement zero-trust security principles. This framework assumes that no user or component, internal or external, should be implicitly trusted. Key requirements include creating a robust security framework and implementing necessary measures.
+
+Explicit verification of every access request
+Least privilege access, limiting user permissions to only what's necessary
+Continuous monitoring and validation to detect and mitigate breaches
+
+Salesforce Shield complements this approach by offering tools such as Platform Encryption, Event Monitoring, and Field Audit Trail, which help developers maintain compliance with zero-trust architecture and regulatory requirements.
+
+How to Prepare for the Security Review
+Devise your security strategy
+
+Creating a coherent and structured security strategy helps protect your app and prepare for the ISV Security Review. Each team member must prioritize security when developing and testing the app. But it can and does happen that some issues aren't detected because of the hustle of building a product and many other reasons.
+
+In this case, it's a perfect idea to assign a security manager who is responsible for your app's security. They can recognize and transmit the issues to the developers before the Security Review.
+
+There are some points that you have to pay attention to in each stage of AppExchange development:
+
+Design: Assess how users interact with your app, identify high-risk features, and define specific use cases to uncover potential vulnerabilities.
+Implementation: Incorporate secure coding principles into your team’s coding guidelines. Regularly discuss security issues during development sprints and code reviews.
+Testing: Develop automated and repeatable security tests that run consistently throughout your development lifecycle.
+Review the Salesforce security documentation
+
+Make sure your app meets the Salesforce code security requirements prior to submitting it to the Security Review. Here are the main resources that you can use to search for security vulnerabilities in your app:
+
+AppExchange Security Review
+Salesforce Security Guide
+Security Coding Guide
+Security Cloud Development Resources
+Open Web Application Security Project (OWASP)
+OWASP Top 10 Web Application Security Risks: This widely recognized list outlines the ten most critical web application security risks. Testing your app against these categories, such as injection flaws, broken authentication, and insecure deserialization, should be a standard part of your security preparation.
+OWASP Testing Guide
+OWASP Secure Coding Practices-Quick Reference Guide
+
+In addition to common web application threats, your app should also address Salesforce-specific security concerns such as improper sharing models, unsafe use of protected custom settings, and insecure Apex practices.
+
+Protected custom settings help ensure that sensitive configuration data, such as API keys or system toggles, are shielded from unintended access, even by other managed packages. Salesforce reviewers will validate that sensitive data is stored appropriately and that your application adheres to the least privilege access principles when retrieving such settings.
+
+Use security scanners to conduct your own review
+
+Utilise scanners to perform your own review. Security scans are available for ISV partners and allow testing of your app for specific vulnerability patterns. Salesforce supports three scanners:
+
+Checkmarx. It's a crucial Salesforce security scanner for you if your app has Visualforce components, Apex Code, and managed packages. Its scan applications are hosted on the Salesforce AppCloud. You get three free scans for your package version. If you need more tests, contact the Checkmarx team. Using this Salesforce scanner, you can perform a static analysis scan of all unpackaged code in your org.
+Chimera. It's a useful scanner for you in case the parts of your app are located on an external platform that you manage. This service is powered by Heroku, a Cloud Application platform. It offers the best open-source scanning technology for testing your app.
+ZAP. Use this free online scanner if you have parts of your app that you don't control on the external domain. It does require installation on the local system. For Salesforce integrations, it is best used with proper configuration to test external domains.
+
+It's important to understand that these security programs help to find the most vulnerabilities in your product, but not 100%. Therefore, conducting manual review and testing is also recommended to address any potential false positive issues.
+
+A scanner may find a false positive error that isn't a real problem. For example, if you have protected against some vulnerability pattern and a scanning program hasn't identified your protection approach. In this case, you need to prepare a false positive document describing and explaining this case in detail and add it to the security review materials.
+
+Use Salesforce Security Health Check
+
+The Salesforce Security Health Check tool allows you to identify and remediate potential common vulnerabilities in your Salesforce org by comparing your settings against Salesforce’s baseline standards. Incorporating this tool into your security readiness process can help catch misconfigurations and improve your overall posture before submission.
+
+Test and prepare your environments for security testing
+
+At this stage, you should put yourself in your customer's shoes and test your app from this perspective. First of all, create a Partner Developer Edition org via Environmental Hub. Then, install your managed package in the org and create as many users as you have profiles. Enable My Domain if the package contains Lighting. Your external environments should be prepared for security testing as well.
+
+Book office hours with the security team
+
+You can chat with the Salesforce technical security team on the Salesforce Partner Security Portal if your app has a custom element that requires extra configuration. For instance, you have a vulnerability issue, but you have doubts about whether it is a false positive or how it has to be documented.
+
+Prepare all the necessary documentation and provide valid credentials.
+
+You must provide full access to all packages, environments, and app components involved in the Security Review. Required documents typically include:
+
+Usage instructions
+Scanner reports
+A false positive explanation document (if applicable)
+Submit to Security Review
+
+The last but not least step is to submit to a security review in the Partner Community Publishing Console. You can do that via the Submission Wizard, where you add necessary documents and give logins.
+
+Security Review Process
+
+After you submit your app for Security Review, the Security Review Ops should verify your submission. It usually takes 1-2 days. Then, the submission is added to the product security queue. The whole ISV Security Review process takes approximately 4-6 weeks.
+
+During this time, the Salesforce security team performs different tests by using threat-modelling profiles. Here are the most common security threats they check for:
+
+SOQL and SQL injection
+Non-secure authentication and access control protocols
+Vulnerabilities that are specific to the Salesforce platform, such as record-sharing violations
+Expanded Review Scope in 2025
+AI/ML Security Evaluation
+
+With the growing integration of artificial intelligence and machine learning into AppExchange web apps, Salesforce has expanded its review process to address AI-specific risks. Applications using AI models are tested for:
+
+Exposure to adversarial input attacks
+Insecure model training and deployment practices
+Unauthorized access to sensitive training or inference data
+
+These tests aim to ensure responsible AI use, aligned with Salesforce’s AI security principles, which emphasize transparency, fairness, and data protection.
+
+Performance Security Testing
+
+Salesforce has also introduced performance-focused security testing for apps that manage large-scale data or serve high volumes of user requests. These tests help identify vulnerabilities that may emerge under heavy load conditions, such as:
+
+Insecure memory handling
+Poor error handling during concurrent transactions
+Weaknesses in bulk processing logic
+
+Such testing ensures that high-performance apps remain secure even when operating under maximum capacity. For best practices, developers are encouraged to review third-party tools and frameworks, such as LoadView's Salesforce performance testing guide.
+
+Final Review and Reporting
+
+After all testing is completed, the Product Security team compiles and validates the results. A detailed report is generated outlining any identified vulnerabilities. Once finalized, the Security Review Operations team shares the results with the app publisher, including next steps for remediation if necessary.
+
+What to Do If You Didn't Pass the Security Review?
+
+Failing the Salesforce Security Review on the first attempt is more common than many expect, approximately half of all submissions do not pass initially. However, this should be seen as an opportunity to strengthen your application’s security posture, rather than a setback.
+
+Salesforce provides a detailed report highlighting the vulnerabilities found during the review. The report includes a hyperlinked table of contents, with each entry identifying the type of security issue encountered. Below each section, you’ll find in-depth descriptions, context, and references to best practices for remediation.
+
+It’s important to note that the Salesforce security team has a finite window to assess vulnerabilities. As a result, new issues may be identified during resubmission that weren’t flagged in the initial review. To avoid repeated rejections, it’s essential to thoroughly test your application, not just for the issues listed in the report but across all potential vulnerabilities.
+
+Leverage Expert Support
+
+For additional guidance and expert help in passing the Security Review, consider partnering with a certified Salesforce PDO like MagicFuse. With extensive experience in AppExchange app development and security compliance, they can assist with code reviews, secure architecture design, and documentation required for review resubmission.
+
+Conduct Manual Penetration Testing
+
+While automated scanners like Checkmarx, Chimera, or ZAP help identify known vulnerability patterns, they do not cover 100% of the risk surface, and it's important to post any findings for team review. Manual testing should be conducted to:
+
+Identify business logic vulnerabilities
+Investigate complex edge cases
+Validate and explain false positives
+
+This hands-on review often uncovers issues that automated tools miss, making it a critical part of any comprehensive security assessment.
+
+Review Internally and Update Your Package
+
+Organize an internal security session with your team to analyze the report findings and define action items.
+
+Once all issues have been addressed:
+
+Upload a new version of your managed package if the code running on the Salesforce platform has changed.
+If external components were affected, update your external application details in the Submission Wizard.
+
+If your package name and ID remain unchanged, Salesforce will treat this as a resubmission of the same offering - meaning no additional security review fee will apply.
+
+Final Approval and Next Steps
+
+Once your app passes the Security Review, you will receive an official approval email from Salesforce. This email will outline the next steps required to publish your app on the AppExchange and move forward with your listing.
+
+Security should never be an afterthought. By proactively addressing vulnerabilities and conducting thorough automated and manual testing, you can build a secure product and gain the trust of Salesforce customers.
+
+Why MagicFuse Stands Out
+
+Do you still have concerns regarding passing the security review? MagicFuse can assist you in preparing and handling this process seamlessly.
+
+MagicFuse is a trusted Salesforce development partner known for its deep expertise in AppExchange development, secure app design, and seamless Salesforce integration. With over 11 years of experience and 250+ Salesforce certifications, MagicFuse helps ISVs navigate the AppExchange Security Review and ensures that your app is secure, compliant, and scalable for future growth.
+
+This industry-specific expertise ensures your app meets Salesforce’s technical requirements and is aligned with regulatory frameworks critical to your customers.
+
+In addition to web apps and web-based solutions, MagicFuse also specializes in secure mobile development. Our team ensures that mobile applications comply fully with Salesforce security protocols, supporting encrypted communication, secure authentication, and robust data access control for business users on the go.
+
+MagicFuse’s impact is reflected in successful Security Reviews and go-to-market readiness for ISVs such as:
+
+Elements.cloud – Scalable, enterprise-grade solution developed with full security compliance. Read case study here.
+Atamis – Salesforce-native public sector procurement solution, successfully listed on AppExchange. Read case study here.
+
+Read more cases here.
+
+Ready to make your app secure and AppExchange-ready? Contact us to schedule a consultation with our Salesforce experts.
+
+FAQs
+What is a Salesforce security review?
+
+A security review assesses the security of the Salesforce.com user interface and evaluates its design and functionality before being made available to the general public on the AppExchange. Reviews are available to help ensure that the security of the AppExchange service meets the standards that apply to the systems on which it is used, including maintaining a detailed log of findings. A security review also addresses compliance with applicable regulatory requirements, such as HIPAA, PCI-DSS, and GLBA.
+
+How long does a Salesforce security review take?
+
+The Salesforce Security Review process typically takes 4-6 weeks, starting from the time your submission is added to the product security queue. However, the total timeline can vary depending on the complexity of your app and the current queue volume. Before reaching this stage, expect 1–2 business days for the Security Review Operations team to verify your submission. If any issues are found during the review, additional time will be required for remediation and resubmission.
+
+What must you test for security review in Salesforce?
+
+To pass the Security Review, your app must demonstrate robust protection of customer data and compliance with Salesforce’s security standards. A key part of this is assessing your application against the OWASP Top 10 list of web application security risks, which includes vulnerabilities like injection flaws, broken access control, and cross-site scripting (XSS). In addition, Salesforce expects you to test for platform-specific threats such as SOQL injection, improper sharing model configurations, and insecure authentication flows. Both automated scanning and manual penetration testing should be used to ensure thorough coverage.
+
+How can I get help from MagicFuse with the security review?
+
+To get help with the Salesforce Security Review, MagicFuse offers comprehensive services tailored specifically for Independent Software Vendors (ISVs). Our experienced team guides you through every step of the AppExchange Security Review process, ensuring your app meets Salesforce's stringent security standards. We identify potential vulnerabilities, optimize your app's security, and provide the necessary documentation to facilitate approval. With our expertise in Salesforce security, we help you address issues like compliance with regulations such as GDPR and HIPAA, and we offer ongoing support to maintain your app’s security post-approval.
+
+Salesforce AppExchange
+Last updated:
+7 October 2025
+By:
+Volodymyr Babin
+
+Head of Salesforce Delivery at MagicFuse, certified Salesforce Architect with 13+ years of experience

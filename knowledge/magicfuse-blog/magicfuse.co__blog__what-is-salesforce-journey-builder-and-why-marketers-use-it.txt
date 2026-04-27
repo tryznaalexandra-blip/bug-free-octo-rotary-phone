@@ -1,0 +1,104 @@
+Source URL: https://magicfuse.co/blog/what-is-salesforce-journey-builder-and-why-marketers-use-it
+Title: What is Salesforce Journey Builder and Why Marketers Use It
+Fetched at (unix): 1777287525
+
+Nowadays, the market is full of different products and services. To stand out from the crowd, you need to provide an excellent customer experience and take into account your prospect's needs and expectations. According to Salesforce’s State of the Connected customer report 2019, 66% of customers are willing to pay more for a great experience. It’s an excellent point for you. Map out a holistic, automated customer journey in Salesforce Journey Builder and be always in touch with your audience via different marketing channels.
+
+From this article, you’ll learn about Salesforce Journey Builder and what its benefits you can use to increase customer satisfaction. You’ll discover the difference between Salesforce Journey and Automation Studio. Moreover, you’ll get a comprehensive guide on how to build an efficient journey, and thus to retain customers easily and quickly.
+
+What Is Salesforce Journey Builder?
+
+Salesforce Journey is one of Salesforce Marketing Cloud’s integrated tools for improving customer relationships. It’s a marketing automation solution for building consistent 1-to-1 customer journeys based on the data modelled in the Marketing Cloud.
+
+Do you want your customers to download the app? Or, do you want them to make purchases successfully and not to leave abandoned carts? Then, Salesforce Journey Builder is here for your needs.
+
+Track customer behaviour and boost your digital marketing across varied channels (email, SMS, Push and Ads). You can create a personalised fast-track communication plans by adding particular items (activities) from the Journey Builder’s panel in a drag-and-drop way.
+
+Also, it’s possible to set the goals and control whether or not customers actually meet those goals, whether or not they stay in the journey and continue to the end, or they’re ejected on a particular step. Besides, you can pull in audience decision splits and specify wait times between journey’s steps.
+
+Difference Between Journey Builder and Automation Studio
+
+Both Journey Builder and Automation Studio are useful tools available for Marketing Cloud users to do multi-step marketing and data management activities. It’s important to understand the difference between them and the unique options of each of them. Let’s determine how you can use Journey Builder vs. Automation Studio, and how they can work together.
+
+Automation Studio is a marketing tool focused on extract, transform or load ETL capabilities. On this platform, you can import, enrich and segment your data from any external source, and build simple or multi-step automations.
+
+Also, you’re allowed to manage recurring processes, such as SQL queries, weekly reports and simple email campaigns. In addition, it’s possible to build advanced segmentation (using advanced SQL queries and data filters) and form the contact lists for the custom journeys.
+
+You can send marketing messages via multi channels using both Journey Builder and Automation Studio. But, in turn, with Journey Builder, your opportunities are wider. The key differences between Journey Builder and Automation Studio are:
+
+In Journey Builder, you can track user behaviour in real-time and on an individual basis. In turn, in Automation Studio you should wait until a batch is automatically finished processing at a specific time.
+In Journey Builder, it’s possible to use event/ action triggers to choose the way to respond to a customer (email, SMS, etc.). In Automation Studio, you can create a fixed path for your customers regardless of their actions and engagement level.
+You can set goals and view built-in goal reports in Journey Builder, while Automation Studio doesn’t offer such an option.
+
+As customers prefer a personalised approach during their interaction with a company, it makes sense to combine capabilities of both Journey Builder and Automation Studio. For example, in Automation Studio, you can create complex audience segmentation using the data from multiple sources and use it in customised journeys in Journey Builder.
+
+How to Build a Journey in Journey Builder
+
+Journey Builder has a reputation as a user-friendly tool with easy configuration. First of all, you need to add a title and description of the journey. You can create a customer journey in two ways: using a pre-made Journey Template or building your own path from scratch with the help of Journey Builder’s activity items.
+
+Journey Builder’s dashboard consists of two blocks: Entry Sources and Activities. Pick the entry source for a particular journey and enrich your customer journey with engaging activities according to your purposes. Check out the list of available activities below: (the tab)
+
+https://docs.google.com/spreadsheets/d/1nN2-Qj9R1bh9PzwmQECRzQc8p-VK-d-vyo-xddJd8oA/edit?usp=sharing
+
+Finally, using the Journey Builder toolbar, you can manage the journey you’ve created. It’s possible to set a goal, define exit criteria, save, test, activate journey and much more.
+
+How to Enter Prospects Into a Journey
+
+Your prospects can be entered into a journey via one of the 6 entry sources:
+
+Data Extension - You’re allowed to select a sendable data extension and admit contacts into a journey.
+API Event - You can set up an API that admits users into a Marketing Cloud journey.
+CloudPages - Use Salesforce Marketing Cloud hosted forms to admit Marketing cloud contacts into a journey utilising the CloudPages Form Submit Event
+Audience entry - Select one of the Audience Builder audiences available in your account to admit contacts into a journey.
+Salesforce Data - Enter your Salesforce contacts into the journey by following the instructions.
+Event (being phased out) - Select this source in case you want to put contacts into a journey based on their behaviour (e.g. a customer purchases a product, a contact signs up for a newsletter, a user provides his review).
+Pro Tips For Using Journey Builder
+
+Start with a simple journey. If you’re a newbie user of Journey Builder, it’s recommended to create at first like a thank you follow-up email or a happy birthday message. Also, it’s better to use simple options at first, e.g. the Welcome Sequence or Timed Waits before extending to Decision Splits.
+
+On the other hand, you can turn to full-cycle Salesforce development and consulting company to get professional help with it. MagicFuse is one of such Salesforce customization companies. They provide high-quality services focused on the technical side of Salesforce.
+
+Plan your journey on paper and prepare all necessary data and content. Before creating a real journey it matters to map your journey visually. In such a way, you can structure your journey and include all the needed steps. Moreover, collect the information that will be used in the journey.
+
+Test your journey. When a final version of your journey is ready, it’s recommended to clone it before activating. Then, test your plan and improve if necessary. Also, it’s important to check time settings and avoid conflicts between data updates and automation.
+
+Save your time and use copied activities. Create a “Copied Activities Clipboard” in the Journey Builder panel and drag the bundle of icons on the canvas to create your customer journeys. This option allows you to decrease your time to design a plan from scratch.
+
+No autosave option. Journey Builder doesn’t provide autosave. So, remember about it and save your journey in the process.
+
+Use the Goals feature to measure journey performance. It’s a great opportunity to gather performance metrics and analyse how to interact and convert potential customers.
+
+Remove prospects easily. Using the Exit Criteria option, you can exclude a prospect from the journey, e.g. if their status changes or they become a cold lead.
+
+Summary
+
+Creating a positive customer experience is the number one priority. Managing customer experience has to be your main task. With Salesforce Journey Builder, you’ll be able to build both simple and complex customer journeys, thus improving customer retention and satisfaction, cross-selling and up-selling.
+
+FAQ
+What is Journey in Salesforce Marketing Cloud?
+
+Journey in Salesforce Marketing Cloud refers to Journey Builder, that is a visual tool for creating, managing, and automating customer journeys across different channels, such as email, mobile, social, and web.
+
+What are the benefits of using Journey Builder?
+
+The benefits of using Journey Builder include:
+
+Improved customer engagement and loyalty: By creating personalized experiences for customers across different touchpoints, brands can build stronger relationships with their customers and increase their loyalty.
+
+Increased conversions and revenue: By delivering the right message to the right person at the right time, brands can increase the likelihood of customers taking action and making a purchase.
+
+Time and cost savings: By automating the customer journey, marketers can save time and resources and focus on other important tasks, such as creating compelling content or analyzing campaign performance.
+
+Better insights and analytics: Journey Builder provides detailed analytics and reporting on customer interactions and campaign performance, enabling marketers.
+
+What is the use of Journey Builder in Salesforce?
+
+Journey Builder in Salesforce is used to create and manage customer journeys across different channels and touchpoints. It defines the steps and actions that a customer will take in response to specific triggers, such as opening an email, clicking on a link, or visiting a website to personalize the content and messaging based on customer data and preferences, and test and optimize the campaigns for better results.
+
+Salesforce
+Last updated:
+7 November 2025
+By:
+Volodymyr Babin
+
+Head of Salesforce Delivery at MagicFuse, certified Salesforce Architect with 13+ years of experience

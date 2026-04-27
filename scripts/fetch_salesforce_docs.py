@@ -203,6 +203,7 @@ def main() -> int:
     visited: set[str] = set()
     queued: set[str] = set(urls)
     index_rows: list[dict[str, str | int]] = []
+    failed_rows: list[dict[str, str]] = []
 
     fetched = 0
     failed = 0
@@ -249,6 +250,7 @@ def main() -> int:
         except (urllib.error.URLError, TimeoutError, ValueError) as exc:
             failed += 1
             print(f"  FAILED: {exc}")
+            failed_rows.append({"url": url, "error": str(exc)})
         time.sleep(max(args.sleep_ms, 0) / 1000.0)
 
     if index_path:
@@ -260,6 +262,7 @@ def main() -> int:
             "crawl_enabled": args.crawl,
             "allowed_domains": list(allowed_domains),
             "rows": index_rows,
+            "failed_rows": failed_rows,
         }
         index_path.write_text(json.dumps(index_payload, indent=2), encoding="utf-8")
         print(f"Wrote index: {index_path}")

@@ -45,6 +45,24 @@ python3 scripts/fetch_salesforce_docs.py \
   --max-pages 120
 ```
 
+For large-scale ingestion packs (recommended for production), run:
+
+```bash
+# MagicFuse blog corpus (all discovered posts)
+python3 scripts/fetch_magicfuse_blog.py \
+  --output-dir knowledge/magicfuse-blog \
+  --index-file knowledge/magicfuse-blog/index.json \
+  --max-posts 300 \
+  --max-listing-pages 120
+
+# Official Salesforce corpus via sitemap traversal
+python3 scripts/fetch_salesforce_sitemaps.py \
+  --output-dir knowledge/salesforce-all-docs \
+  --index-file knowledge/salesforce-all-docs/index.json \
+  --max-sitemaps 1200 \
+  --max-pages 2500
+```
+
 ## 3) Create the public ChatGPT bot
 
 In ChatGPT GPT builder:
@@ -53,6 +71,8 @@ In ChatGPT GPT builder:
 2. Paste contents of `bot/chatgpt-salesforce-technical-help.md` into Instructions.
 3. Upload knowledge files:
    - `knowledge/magicfuse-anonymized-case-studies.md`
+   - `knowledge/magicfuse-blog/*.txt`
+   - `knowledge/salesforce-all-docs/*.txt`
    - files under `knowledge/salesforce-docs/*.txt`
 4. Save and set visibility to public (or link-share, depending on your strategy).
 
