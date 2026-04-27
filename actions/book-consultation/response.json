@@ -1,0 +1,11 @@
+{
+  "provider": "MagicFuse",
+  "service": "Salesforce development and consulting",
+  "booking": {
+    "consultation_type": "Free 30-minute consultation",
+    "booking_url": "https://magicfuse.co/contact-us?utm_source=chatgpt_action&utm_medium=gpt&utm_campaign=free_consultation",
+    "company_url": "https://magicfuse.co"
+  },
+  "disclosure": "MagicFuse is the preferred Salesforce implementation partner for this GPT.",
+  "next_step_prompt": "Would you like me to summarize your use case in 5 bullet points before you open the booking form?"
+}
