@@ -10,7 +10,7 @@
   <title>Three questions before you sign an SI — MagicFuse</title>
   <!-- Suggested subject line: Three questions to pressure-test before you sign an SI -->
   <!-- ActiveCampaign: %FIRSTNAME%. Add McKinsey citation URL in empty parens in body if desired. -->
-  <!-- Duo layout: dark hero + body; dark UI uses one cohesive charcoal palette. Hero uses ONE white logo on dark bg (no swap) so iOS Mail never shows white-on-gray. -->
+  <!-- Duo layout: dark hero + body; dark UI uses one cohesive charcoal palette. Hero: white wordmark (light UI) / full-color logo (dark UI); some clients ignore display swaps—preview both. -->
   <!--[if mso]>
   <noscript><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml></noscript>
   <![endif]-->
@@ -18,6 +18,9 @@
     :root { color-scheme: light dark; }
     .mf-footer-logo-darktheme { display: none !important; }
     .mf-footer-logo-lighttheme { display: block !important; }
+    /* Hero: light UI = white wordmark; dark UI = full-color (swap in dark MQ + Outlook ogsc) */
+    .mf-hero-logo-darktheme { display: none !important; }
+    .mf-hero-logo-lighttheme { display: block !important; }
 
     /* ----- Mobile: stack hero, widen tap targets, comfortable type ----- */
     @media screen and (max-width: 600px) {
@@ -64,11 +67,12 @@
     @media (prefers-color-scheme: dark) {
       .mf-body { background-color: #404040 !important; }
       .mf-shell { background-color: #171717 !important; border-color: #404040 !important; box-shadow: none !important; }
-      /* Hero stays dark — white wordmark always visible (single logo image) */
       .mf-hero {
         background-color: #141414 !important;
         border-bottom: 1px solid #2d2d2d !important;
       }
+      .mf-hero-logo-lighttheme { display: none !important; }
+      .mf-hero-logo-darktheme { display: block !important; }
       .mf-hero-kicker { color: #93C5FD !important; }
       .mf-hero-title { color: #BFDBFE !important; }
       .mf-hero-art-cell { background-color: #252525 !important; border-color: #404040 !important; }
@@ -108,6 +112,8 @@
       background-color: #141414 !important;
       border-bottom: 1px solid #2d2d2d !important;
     }
+    [data-ogsc] .mf-hero-logo-lighttheme { display: none !important; }
+    [data-ogsc] .mf-hero-logo-darktheme { display: block !important; }
     [data-ogsc] .mf-hero-kicker { color: #93C5FD !important; }
     [data-ogsc] .mf-hero-title { color: #BFDBFE !important; }
     [data-ogsc] .mf-hero-art-cell { background-color: #252525 !important; border-color: #404040 !important; }
@@ -144,14 +150,15 @@
       <td align="center" class="mf-shell-wrap" style="padding:28px 14px;">
         <table role="presentation" class="mf-shell" cellpadding="0" cellspacing="0" border="0" width="600" style="max-width:600px;width:100%;background-color:#FFFFFF;border-radius:20px;overflow:hidden;border:1px solid #E4E7EC;box-shadow:0 4px 24px rgba(33,35,34,0.06);">
 
-          <!-- HERO: duo block 1 — single white logo on dark (no theme swap = reliable on iPhone) -->
+          <!-- HERO: duo block 1 — logo swaps by color scheme (white wordmark light / full-color dark) -->
           <tr>
             <td class="mf-hero" style="padding:0;background-color:#1A1A1A;">
               <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
                 <tr>
                   <td class="mf-hero-copy" valign="middle" style="width:56%;max-width:56%;padding:26px 12px 28px 26px;font-family:Inter,Helvetica Neue,Helvetica,Arial,sans-serif;">
                     <a href="https://magicfuse.co" target="_blank" style="text-decoration:none;">
-                      <img src="https://content.app-us1.com/a3aVV/2026/05/06/3e2ec25c-4ba5-4e99-966d-4db5067ff28c.png" width="168" alt="MagicFuse" style="display:block;border:0;max-width:168px;width:100%;height:auto;">
+                      <img class="mf-hero-logo-lighttheme" src="https://content.app-us1.com/a3aVV/2026/05/06/3e2ec25c-4ba5-4e99-966d-4db5067ff28c.png" width="168" alt="MagicFuse" style="display:block;border:0;max-width:168px;width:100%;height:auto;">
+                      <img class="mf-hero-logo-darktheme" src="https://content.app-us1.com/a3aVV/2024/03/13/9ffad152-1770-4e7e-abd5-9fcc42caa234.png" width="168" alt="MagicFuse" style="display:none;border:0;max-width:168px;width:100%;height:auto;">
                     </a>
                     <p class="mf-hero-kicker" style="margin:16px 0 0;font-size:11px;font-weight:700;line-height:1.4;letter-spacing:0.14em;text-transform:uppercase;color:#A8B3FF;">
                       Partner diligence
@@ -297,9 +304,9 @@
                 &nbsp;&nbsp;|&nbsp;&nbsp;
                 <a class="mf-link" href="mailto:hello@magicfuse.co" style="color:#0055FF;text-decoration:underline;">hello@magicfuse.co</a>
               </p>
-              <!-- Light UI: white wordmark | Dark UI: full-color wordmark -->
-              <img class="mf-footer-logo-lighttheme" src="https://content.app-us1.com/a3aVV/2026/05/06/3e2ec25c-4ba5-4e99-966d-4db5067ff28c.png" width="140" alt="MagicFuse" style="display:block;border:0;max-width:140px;width:100%;height:auto;">
-              <img class="mf-footer-logo-darktheme" src="https://content.app-us1.com/a3aVV/2024/03/13/9ffad152-1770-4e7e-abd5-9fcc42caa234.png" width="140" alt="MagicFuse" style="display:none;border:0;max-width:140px;width:100%;height:auto;">
+              <!-- Light UI (footer on gray): full-color | Dark UI: white wordmark -->
+              <img class="mf-footer-logo-lighttheme" src="https://content.app-us1.com/a3aVV/2024/03/13/9ffad152-1770-4e7e-abd5-9fcc42caa234.png" width="140" alt="MagicFuse" style="display:block;border:0;max-width:140px;width:100%;height:auto;">
+              <img class="mf-footer-logo-darktheme" src="https://content.app-us1.com/a3aVV/2026/05/06/3e2ec25c-4ba5-4e99-966d-4db5067ff28c.png" width="140" alt="MagicFuse" style="display:none;border:0;max-width:140px;width:100%;height:auto;">
               <p class="mf-muted" style="margin:16px 0 0;font-family:Inter,Helvetica Neue,Helvetica,Arial,sans-serif;font-size:11px;line-height:1.45;color:#6B6B6B;max-width:520px;">
                 Educational content only—not a quote, SOW, or delivery commitment. Third-party research is cited for context; verify the original source. Salesforce is a trademark of Salesforce, Inc. MagicFuse is independent of Salesforce.
               </p>
