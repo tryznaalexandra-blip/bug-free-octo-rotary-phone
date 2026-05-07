@@ -10,86 +10,123 @@
   <title>Three questions before you sign an SI — MagicFuse</title>
   <!-- Suggested subject line: Three questions to pressure-test before you sign an SI -->
   <!-- ActiveCampaign: %FIRSTNAME%. Add McKinsey citation URL in empty parens in body if desired. -->
-  <!-- Logos: light UI = white wordmark (3e2ec25c); dark UI = full-color (9ffad152). Dark mode colors + mf-dm-* headings. -->
+  <!-- Duo layout: dark hero + body; dark UI uses one cohesive charcoal palette. Hero uses ONE white logo on dark bg (no swap) so iOS Mail never shows white-on-gray. -->
   <!--[if mso]>
   <noscript><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml></noscript>
   <![endif]-->
   <style type="text/css">
     :root { color-scheme: light dark; }
-    /* Default (light email UI): show light-theme logos */
-    .mf-logo-hero-dark { display: none !important; }
-    .mf-logo-hero-light { display: block !important; }
     .mf-footer-logo-darktheme { display: none !important; }
     .mf-footer-logo-lighttheme { display: block !important; }
 
+    /* ----- Mobile: stack hero, widen tap targets, comfortable type ----- */
+    @media screen and (max-width: 600px) {
+      .mf-shell-wrap { padding: 16px 10px !important; }
+      .mf-hero-copy {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 22px 20px 10px !important;
+        box-sizing: border-box !important;
+      }
+      .mf-hero-art-wrap {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 8px 20px 22px !important;
+        text-align: center !important;
+        box-sizing: border-box !important;
+      }
+      .mf-hero-art-cell { margin: 0 auto !important; }
+      .mf-hero-art-img { width: 168px !important; max-width: 56vw !important; height: auto !important; margin-left: auto !important; margin-right: auto !important; }
+      .mf-page { padding: 24px 18px 10px !important; font-size: 17px !important; }
+      .mf-cta-wrap { padding: 0 18px 24px !important; }
+      .mf-signoff { padding: 0 18px 26px !important; }
+      .mf-footer { padding: 22px 18px 28px !important; }
+      .mf-hero-title { font-size: 22px !important; line-height: 1.28 !important; }
+      .mf-btn-link {
+        display: block !important;
+        text-align: center !important;
+        padding: 16px 22px !important;
+        min-height: 48px !important;
+        box-sizing: border-box !important;
+        line-height: 1.25 !important;
+      }
+      .mf-num {
+        min-width: 36px !important;
+        height: 36px !important;
+        line-height: 36px !important;
+        border-radius: 18px !important;
+      }
+    }
+
+    /* ----- Dark system UI: unified charcoal “duo” (hero + body same family; no light hero strip) ----- */
     @media (prefers-color-scheme: dark) {
-      /*
-        Safe “dark UI” email: mid-gray chrome + light surfaces + DARK text (never assume bg-* survives ESP preview).
-        Headings: primary blue / near-black so they pop without needing inverted body colors.
-      */
-      .mf-body { background-color: #6B7280 !important; }
-      .mf-shell { background-color: #E5E7EB !important; border-color: #4B5563 !important; box-shadow: none !important; }
-      /* Hero: keep light strip + full-color logo */
-      .mf-hero { background-color: #E8ECF4 !important; border-bottom: 1px solid #C8D2E6 !important; }
-      .mf-hero-kicker { color: #0055FF !important; }
-      .mf-hero-title { color: #111827 !important; }
-      .mf-hero-art-cell { background-color: #D6E0F5 !important; border-color: #A8BCE0 !important; }
-      .mf-logo-hero-light { display: none !important; }
-      .mf-logo-hero-dark { display: block !important; }
+      .mf-body { background-color: #404040 !important; }
+      .mf-shell { background-color: #171717 !important; border-color: #404040 !important; box-shadow: none !important; }
+      /* Hero stays dark — white wordmark always visible (single logo image) */
+      .mf-hero {
+        background-color: #141414 !important;
+        border-bottom: 1px solid #2d2d2d !important;
+      }
+      .mf-hero-kicker { color: #93C5FD !important; }
+      .mf-hero-title { color: #FAFAFA !important; }
+      .mf-hero-art-cell { background-color: #252525 !important; border-color: #404040 !important; }
+      .mf-divider { background-color: #333333 !important; }
+
+      .mf-page { background-color: #1a1a1a !important; }
+      .mf-page > p, .mf-page p, .mf-page strong, .mf-page b { color: #E5E5E5 !important; }
+      .mf-text, .mf-text strong, .mf-text b { color: #E5E5E5 !important; }
+      .mf-card { background-color: #262626 !important; border-color: #404040 !important; }
+      .mf-card p, .mf-card strong { color: #E5E5E5 !important; }
+      .mf-muted { color: #A3A3A3 !important; }
+      .mf-card-left { border-left-color: #3B82F6 !important; }
+      .mf-panel { background-color: #1e293b !important; border-color: #334155 !important; }
+      .mf-panel p, .mf-panel strong { color: #CBD5E1 !important; }
+      .mf-cta-wrap { background-color: #1a1a1a !important; }
+      .mf-signoff { background-color: #171717 !important; color: #E5E5E5 !important; }
+      .mf-signoff strong { color: #FFFFFF !important; }
+      .mf-footer { background-color: #0f0f0f !important; border-top-color: #333333 !important; }
+      .mf-footer-title { color: #E5E5E5 !important; }
+      .mf-footer-line { color: #A3A3A3 !important; }
+      .mf-link { color: #60A5FA !important; }
+      .mf-btn-cell { background-color: #2563EB !important; }
+      .mf-btn-link { color: #FFFFFF !important; }
+      .mf-num { background-color: #2563EB !important; color: #FFFFFF !important; }
+      .mf-dm-section-heading { color: #93C5FD !important; }
+      .mf-dm-q-title { color: #FFFFFF !important; }
+
       .mf-footer-logo-lighttheme { display: none !important; }
       .mf-footer-logo-darktheme { display: block !important; }
-      /* Body column: light gray page + charcoal copy (readable if card bg is stripped) */
-      .mf-page { background-color: #F3F4F6 !important; }
-      .mf-page > p, .mf-page p, .mf-page strong, .mf-page b { color: #1F2937 !important; }
-      .mf-text, .mf-text strong, .mf-text b { color: #1F2937 !important; }
-      .mf-card p, .mf-card strong { color: #1F2937 !important; }
-      .mf-muted { color: #4B5563 !important; }
-      .mf-card { background-color: #FFFFFF !important; border-color: #9CA3AF !important; }
-      .mf-card-left { border-left-color: #0055FF !important; }
-      .mf-panel { background-color: #DBEAFE !important; border-color: #93C5FD !important; }
-      .mf-panel p, .mf-panel strong { color: #1E3A8A !important; }
-      .mf-cta-wrap { background-color: #F3F4F6 !important; }
-      .mf-signoff { background-color: #FFFFFF !important; color: #111827 !important; }
-      .mf-signoff strong { color: #111827 !important; }
-      .mf-footer { background-color: #D1D5DB !important; border-top-color: #9CA3AF !important; }
-      .mf-footer-title { color: #111827 !important; }
-      .mf-footer-line { color: #374151 !important; }
-      .mf-link { color: #1D4ED8 !important; }
-      .mf-btn-cell { background-color: #0055FF !important; }
-      .mf-btn-link { color: #FFFFFF !important; }
-      .mf-num { background-color: #0055FF !important; color: #FFFFFF !important; }
-      .mf-divider { background-color: #9CA3AF !important; }
-      /* Section / question headings — distinct in dark UI (still safe on white cards) */
-      .mf-dm-section-heading { color: #0055FF !important; }
-      .mf-dm-q-title { color: #0F172A !important; }
     }
-    /* Outlook.com dark canvas — same safe palette (no light-gray text without guaranteed surface) */
-    [data-ogsc] .mf-body { background-color: #6B7280 !important; }
-    [data-ogsc] .mf-shell { background-color: #E5E7EB !important; border-color: #4B5563 !important; }
-    [data-ogsc] .mf-page { background-color: #F3F4F6 !important; }
-    [data-ogsc] .mf-hero { background-color: #E8ECF4 !important; border-bottom: 1px solid #C8D2E6 !important; }
-    [data-ogsc] .mf-hero-kicker { color: #0055FF !important; }
-    [data-ogsc] .mf-hero-title { color: #111827 !important; }
-    [data-ogsc] .mf-hero-art-cell { background-color: #D6E0F5 !important; border-color: #A8BCE0 !important; }
-    [data-ogsc] .mf-logo-hero-light { display: none !important; }
-    [data-ogsc] .mf-logo-hero-dark { display: block !important; }
+
+    [data-ogsc] .mf-body { background-color: #404040 !important; }
+    [data-ogsc] .mf-shell { background-color: #171717 !important; border-color: #404040 !important; }
+    [data-ogsc] .mf-hero {
+      background-color: #141414 !important;
+      border-bottom: 1px solid #2d2d2d !important;
+    }
+    [data-ogsc] .mf-hero-kicker { color: #93C5FD !important; }
+    [data-ogsc] .mf-hero-title { color: #FAFAFA !important; }
+    [data-ogsc] .mf-hero-art-cell { background-color: #252525 !important; border-color: #404040 !important; }
+    [data-ogsc] .mf-divider { background-color: #333333 !important; }
+    [data-ogsc] .mf-page { background-color: #1a1a1a !important; }
+    [data-ogsc] .mf-page p, [data-ogsc] .mf-page strong { color: #E5E5E5 !important; }
+    [data-ogsc] .mf-card { background-color: #262626 !important; border-color: #404040 !important; }
+    [data-ogsc] .mf-card p, [data-ogsc] .mf-card strong { color: #E5E5E5 !important; }
+    [data-ogsc] .mf-panel { background-color: #1e293b !important; border-color: #334155 !important; }
+    [data-ogsc] .mf-panel p, [data-ogsc] .mf-panel strong { color: #CBD5E1 !important; }
+    [data-ogsc] .mf-cta-wrap { background-color: #1a1a1a !important; }
+    [data-ogsc] .mf-signoff { background-color: #171717 !important; color: #E5E5E5 !important; }
+    [data-ogsc] .mf-muted { color: #A3A3A3 !important; }
+    [data-ogsc] .mf-footer { background-color: #0f0f0f !important; border-top-color: #333333 !important; }
+    [data-ogsc] .mf-footer-title { color: #E5E5E5 !important; }
+    [data-ogsc] .mf-footer-line { color: #A3A3A3 !important; }
+    [data-ogsc] .mf-link { color: #60A5FA !important; }
+    [data-ogsc] .mf-dm-section-heading { color: #93C5FD !important; }
+    [data-ogsc] .mf-dm-q-title { color: #FFFFFF !important; }
     [data-ogsc] .mf-footer-logo-lighttheme { display: none !important; }
     [data-ogsc] .mf-footer-logo-darktheme { display: block !important; }
-    [data-ogsc] .mf-page p, [data-ogsc] .mf-page strong { color: #1F2937 !important; }
-    [data-ogsc] .mf-card p, [data-ogsc] .mf-card strong { color: #1F2937 !important; }
-    [data-ogsc] .mf-panel p, [data-ogsc] .mf-panel strong { color: #1E3A8A !important; }
-    [data-ogsc] .mf-cta-wrap { background-color: #F3F4F6 !important; }
-    [data-ogsc] .mf-signoff { background-color: #FFFFFF !important; color: #111827 !important; }
-    [data-ogsc] .mf-muted { color: #4B5563 !important; }
-    [data-ogsc] .mf-card { background-color: #FFFFFF !important; border-color: #9CA3AF !important; }
-    [data-ogsc] .mf-panel { background-color: #DBEAFE !important; border-color: #93C5FD !important; }
-    [data-ogsc] .mf-footer { background-color: #D1D5DB !important; border-top-color: #9CA3AF !important; }
-    [data-ogsc] .mf-footer-title { color: #111827 !important; }
-    [data-ogsc] .mf-footer-line { color: #374151 !important; }
-    [data-ogsc] .mf-link { color: #1D4ED8 !important; }
-    [data-ogsc] .mf-divider { background-color: #9CA3AF !important; }
-    [data-ogsc] .mf-dm-section-heading { color: #0055FF !important; }
-    [data-ogsc] .mf-dm-q-title { color: #0F172A !important; }
   </style>
 </head>
 <body class="mf-body" style="margin:0;padding:0;background-color:#EBEDF0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;">
@@ -99,20 +136,17 @@
 
   <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="background-color:#EBEDF0;">
     <tr>
-      <td align="center" style="padding:28px 14px;">
+      <td align="center" class="mf-shell-wrap" style="padding:28px 14px;">
         <table role="presentation" class="mf-shell" cellpadding="0" cellspacing="0" border="0" width="600" style="max-width:600px;width:100%;background-color:#FFFFFF;border-radius:20px;overflow:hidden;border:1px solid #E4E7EC;box-shadow:0 4px 24px rgba(33,35,34,0.06);">
 
-          <!-- HERO: match Email 2 — logo + one label + one headline (no third line / extra color) -->
+          <!-- HERO: duo block 1 — single white logo on dark (no theme swap = reliable on iPhone) -->
           <tr>
             <td class="mf-hero" style="padding:0;background-color:#1A1A1A;">
               <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
                 <tr>
-                  <td valign="middle" style="width:56%;max-width:56%;padding:26px 10px 28px 26px;font-family:Inter,Helvetica Neue,Helvetica,Arial,sans-serif;">
+                  <td class="mf-hero-copy" valign="middle" style="width:56%;max-width:56%;padding:26px 12px 28px 26px;font-family:Inter,Helvetica Neue,Helvetica,Arial,sans-serif;">
                     <a href="https://magicfuse.co" target="_blank" style="text-decoration:none;">
-                      <!-- Light UI: white wordmark -->
-                      <img class="mf-logo-hero-light" src="https://content.app-us1.com/a3aVV/2026/05/06/3e2ec25c-4ba5-4e99-966d-4db5067ff28c.png" width="168" alt="MagicFuse" style="display:block;border:0;max-width:168px;width:100%;height:auto;">
-                      <!-- Dark UI: full-color wordmark (same asset as footer dark) -->
-                      <img class="mf-logo-hero-dark" src="https://content.app-us1.com/a3aVV/2024/03/13/9ffad152-1770-4e7e-abd5-9fcc42caa234.png" width="168" alt="MagicFuse" style="display:none;border:0;max-width:168px;width:100%;height:auto;">
+                      <img src="https://content.app-us1.com/a3aVV/2026/05/06/3e2ec25c-4ba5-4e99-966d-4db5067ff28c.png" width="168" alt="MagicFuse" style="display:block;border:0;max-width:168px;width:100%;height:auto;">
                     </a>
                     <p class="mf-hero-kicker" style="margin:16px 0 0;font-size:11px;font-weight:700;line-height:1.4;letter-spacing:0.14em;text-transform:uppercase;color:#A8B3FF;">
                       Partner diligence
@@ -121,11 +155,11 @@
                       Three questions worth pressure-testing before you sign with an SI
                     </h1>
                   </td>
-                  <td valign="bottom" align="center" style="width:44%;max-width:44%;padding:18px 22px 22px 8px;">
+                  <td class="mf-hero-art-wrap" valign="bottom" align="center" style="width:44%;max-width:44%;padding:18px 22px 22px 8px;">
                     <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center">
                       <tr>
-                        <td class="mf-hero-art-cell" style="background-color:#E8EEFF;border-radius:14px;padding:10px;border:1px solid #C9D8F0;">
-                          <img src="https://content.app-us1.com/a3aVV/2026/01/28/a2b98c1e-7652-4c75-a791-6382b6cf3e91.png" width="148" alt="Decorative classical sculpture detail" style="display:block;width:148px;max-width:100%;height:auto;border-radius:10px;border:0;">
+                        <td class="mf-hero-art-cell" align="center" style="background-color:#E8EEFF;border-radius:14px;padding:10px;border:1px solid #C9D8F0;">
+                          <img class="mf-hero-art-img" src="https://content.app-us1.com/a3aVV/2026/01/28/a2b98c1e-7652-4c75-a791-6382b6cf3e91.png" width="148" alt="Decorative classical sculpture detail" style="display:block;width:148px;max-width:100%;height:auto;border-radius:10px;border:0;">
                         </td>
                       </tr>
                     </table>
@@ -139,7 +173,7 @@
             <td class="mf-divider" style="height:1px;background-color:#E4E7EC;font-size:0;line-height:0;">&nbsp;</td>
           </tr>
 
-          <!-- BODY -->
+          <!-- BODY: duo block 2 -->
           <tr>
             <td class="mf-page mf-text" style="padding:30px 28px 12px;font-family:Inter,Helvetica Neue,Helvetica,Arial,sans-serif;font-size:18px;line-height:1.65;color:#212322;background-color:#FAFBFD;">
               <p style="margin:0 0 22px;"><strong style="color:#212322;">Hi %FIRSTNAME%,</strong></p>
@@ -162,7 +196,7 @@
                   <td class="mf-card" style="padding:18px 18px 20px;background-color:#FFFFFF;border-radius:12px;border:1px solid #E8ECF2;">
                     <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
                       <tr>
-                        <td valign="top" width="40" style="padding-right:12px;">
+                        <td valign="top" width="44" style="padding-right:12px;">
                           <span class="mf-num" style="display:inline-block;min-width:32px;height:32px;line-height:32px;text-align:center;background-color:#0055FF;color:#FFFFFF;font-size:15px;font-weight:700;border-radius:16px;font-family:Inter,Helvetica Neue,Helvetica,Arial,sans-serif;">1</span>
                         </td>
                         <td valign="top">
@@ -181,7 +215,7 @@
                   <td class="mf-card" style="padding:18px 18px 20px;background-color:#FFFFFF;border-radius:12px;border:1px solid #E8ECF2;">
                     <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
                       <tr>
-                        <td valign="top" width="40" style="padding-right:12px;">
+                        <td valign="top" width="44" style="padding-right:12px;">
                           <span class="mf-num" style="display:inline-block;min-width:32px;height:32px;line-height:32px;text-align:center;background-color:#0055FF;color:#FFFFFF;font-size:15px;font-weight:700;border-radius:16px;font-family:Inter,Helvetica Neue,Helvetica,Arial,sans-serif;">2</span>
                         </td>
                         <td valign="top">
@@ -200,7 +234,7 @@
                   <td class="mf-card" style="padding:18px 18px 20px;background-color:#FFFFFF;border-radius:12px;border:1px solid #E8ECF2;">
                     <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
                       <tr>
-                        <td valign="top" width="40" style="padding-right:12px;">
+                        <td valign="top" width="44" style="padding-right:12px;">
                           <span class="mf-num" style="display:inline-block;min-width:32px;height:32px;line-height:32px;text-align:center;background-color:#0055FF;color:#FFFFFF;font-size:15px;font-weight:700;border-radius:16px;font-family:Inter,Helvetica Neue,Helvetica,Arial,sans-serif;">3</span>
                         </td>
                         <td valign="top">
@@ -230,7 +264,7 @@
                 <tr>
                   <td style="padding:24px 24px 26px;font-family:Inter,Helvetica Neue,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.55;color:#212322;">
                     <p class="mf-text" style="margin:0 0 18px;color:#212322;">Want a second pair of eyes on scope language before you commit?</p>
-                    <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                    <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
                       <tr>
                         <td align="left" class="mf-btn-cell" bgcolor="#0055FF" style="background-color:#0055FF;border-radius:10px;mso-padding-alt:14px 26px;">
                           <a class="mf-btn-link" href="https://magicfuse.co/contact-us" target="_blank" style="display:inline-block;padding:14px 26px;font-family:Inter,Helvetica Neue,Helvetica,Arial,sans-serif;font-size:17px;font-weight:700;color:#FFFFFF;text-decoration:none;border-radius:10px;">We can help with estimation&nbsp;→</a>
@@ -258,7 +292,7 @@
                 &nbsp;&nbsp;|&nbsp;&nbsp;
                 <a class="mf-link" href="mailto:hello@magicfuse.co" style="color:#0055FF;text-decoration:underline;">hello@magicfuse.co</a>
               </p>
-              <!-- Light UI: white wordmark | Dark UI: full-color wordmark (9ffad152) -->
+              <!-- Light UI: white wordmark | Dark UI: full-color wordmark -->
               <img class="mf-footer-logo-lighttheme" src="https://content.app-us1.com/a3aVV/2026/05/06/3e2ec25c-4ba5-4e99-966d-4db5067ff28c.png" width="140" alt="MagicFuse" style="display:block;border:0;max-width:140px;width:100%;height:auto;">
               <img class="mf-footer-logo-darktheme" src="https://content.app-us1.com/a3aVV/2024/03/13/9ffad152-1770-4e7e-abd5-9fcc42caa234.png" width="140" alt="MagicFuse" style="display:none;border:0;max-width:140px;width:100%;height:auto;">
               <p class="mf-muted" style="margin:16px 0 0;font-family:Inter,Helvetica Neue,Helvetica,Arial,sans-serif;font-size:11px;line-height:1.45;color:#6B6B6B;max-width:520px;">
