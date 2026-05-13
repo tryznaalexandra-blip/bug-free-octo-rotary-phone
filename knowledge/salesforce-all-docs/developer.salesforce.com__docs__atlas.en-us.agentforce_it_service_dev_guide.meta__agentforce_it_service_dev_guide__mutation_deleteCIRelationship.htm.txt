@@ -1,0 +1,5 @@
+Source URL: https://developer.salesforce.com/docs/atlas.en-us.agentforce_it_service_dev_guide.meta/agentforce_it_service_dev_guide/mutation_deleteCIRelationship.htm
+Title: 
+Fetched at (unix): 1777289606
+
+Title: Delete Configuration Item Relationship | Agentforce IT Service Developer Guide | Salesforce Developers URL Source: http://developer.salesforce.com/docs/atlas.en-us.agentforce_it_service_dev_guide.meta/agentforce_it_service_dev_guide/mutation_deleteCIRelationship.htm Warning: This page maybe not yet fully loaded, consider explicitly specify a timeout. Warning: This page contains shadow DOM that are currently hidden, consider enabling shadow DOM processing. Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access this page. Markdown Content:

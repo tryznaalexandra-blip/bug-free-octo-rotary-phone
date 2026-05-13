@@ -1,0 +1,189 @@
+Source URL: https://magicfuse.co/blog/appexchange-pricing-and-monetisation
+Title: Salesforce AppExchange Pricing Model and Monetisation
+Fetched at (unix): 1777287321
+
+Did you know that over 90% of Salesforce customers use apps from the AppExchange? With more than 7 million installs and a highly competitive landscape, standing out and monetising your free and paid apps is no easy feat. The key to success lies in selecting the right pricing model that aligns with your app’s value and market demands.
+
+If you have developed an app for AppExchange listing and would like to start monetising its use, then this guide can help take you through the next steps. It's best to begin by deciding which type of app you are offering. This will give you some idea of how competitive your market is and how much extra marketing and research will be involved in getting it off the ground.
+
+Getting Started on the AppExchange
+
+All AppExchange apps and services are divided into a type, a product collection, an industry collection, and a category. The five types are Apps, Bolt Solutions, Flow Solutions, Lightning Data, and Components.
+
+Product collections include Sales Cloud, Service Cloud, Marketing Cloud, Commerce Cloud, and Platform. Industry collections include communications, education, government, media, and retail. Some top app categories include project management, finance, human resources, enterprise resource planning, and sales.
+
+Once you know where your app fits into the market, you can choose your ISV program and decide which monetisation model works best for you. This MagicFuse guide will help you make these important informed decisions and give you examples of how some of the most successful Salesforce apps contributed to enhancing customer experiences and business growth.
+
+AppExchange Partner Programme Licences
+
+The first step in setting up your monetised app is to sign up to the Salesforce Partner Program and become a member of the partner community. As a Salesforce Partner, you're agreeing to share your revenue with the Salesforce platform, as explained below. There are two main types of partner licenses to choose from, depending on the app's distribution model (Salesforce-only or external customers) and its functionality (add-on vs. standalone app).
+
+By signing your chosen licence, you acknowledge your use of Salesforce technology for your business; and, while this ultimately will affect what your customers can use your apps for and its Salesforce pricing, it is also an agreement of fair terms of use between you and Salesforce. Ensuring a security review and quality assurance throughout this process is critical to guarantee that your app meets the required standards before it’s published on the AppExchange.
+
+ISVforce
+
+ISV stands for Independent Software Vendor and refers to companies that produce software that functions on a specific platform for a specific application. This is the most common type of partnership chosen by businesses with an in house team looking to monetise on the AppExchange by selling their app to existing Salesforce customers.
+
+Apps sold on this license are typically add-ons to the Salesforce ecosystem to help customers increase functionality. Most of the time, these apps augment the Sales or Service Cloud and are a development that entrepreneurs or consultants use to fill a gap in the market and/or enhance CRM usability.
+
+Customers who purchase an app licensed through ISVforce can add to the app, which adds potential value to your app and makes it more scalable for different business sizes.
+
+ISVforce licences for your business solutions entitle Salesforce to a 15% share of your sales. This revenue share supports the platform’s ongoing development, maintenance, and provides visibility within Salesforce's trusted marketplace, which can significantly increase your app’s reach.
+
+OEM Embedded
+
+OEM stands for Original Equipment Manufacturer and, in this instance, refers to the necessity of having external hardware, software, or licenses to use your app fully.
+
+OEM apps do not have to be Salesforce add-ons. One of the main potential benefits of using an OEM Embedded licence is that you are not limited to selling to Salesforce customers only, but can also showcase your app's features.
+
+The apps that you produce under this licence must include a combination of the following licences for customers without a Salesforce org to enable them to use the service: Lightning Platform License (for accessing the Force.com platform), Customer Community License (to allow customers to access and interact with their own data), and Customer Community Plus License (for advanced features such as reporting and customization).
+
+Lightning Platform Licence - This licence is always required as it allows your non-Salesforce customers to use the Force.com platform.
+
+Customer Community Licence - This licence lets customers see and use their own data. This can be useful if your customers are likely to be working with external users.
+
+Customer Community Plus Licence - As well as the above, this licence allows customers to have a more hands-on role in the app's development and access reports, enhancing the user interface.
+
+OEM Embedded license entitles the Salesforce platform to a 25% share of your sales.
+
+Trends in Salesforce AppExchange Pricing Models
+
+The Salesforce AppExchange marketplace is undergoing a significant transformation in its pricing strategies, driven by advancements in technology and evolving customer expectations. Traditional pricing models are being supplemented by more dynamic, usage-based approaches that may include advanced features.
+
+Dynamic Pricing Strategies
+
+As the AppExchange ecosystem expands, ISVs are increasingly adopting flexible pricing models that align more closely with the value delivered to customers.
+
+Usage-Based Pricing
+
+Customers are charged based on their actual usage of the application, such as the number of API calls, data storage, or transactions processed. This model ensures that customers pay in proportion to the value they derive from the app.
+
+Tiered Subscriptions
+
+Pricing is structured in tiers, with each tier offering a different level of service or features. This allows businesses to select a pricing tier that best fits their needs, providing scalable options for different business sizes.
+
+Pay-Per-Feature
+
+Customers pay only for the specific features they use, providing more granular control over app costs. This model caters to customers who require only certain functionalities, allowing them to customize their spending.
+
+The Rise of Usage-Based Pricing
+
+Usage-based pricing is gaining traction across various sectors, including SaaS, AI, and infrastructure. According to Metronome's 2025 report, 85% of surveyed software companies have adopted usage-based pricing, with 77% of the largest software companies incorporating some level of usage-based pricing into their revenue models.
+
+This model aligns customer spending with actual value received, unlocking expansion within existing accounts and increasing recurring revenue. It also helps optimize internal resources and improve profitability by scaling costs with customer consumption.
+
+Integration of AI in Pricing Models
+
+The integration of Artificial Intelligence (AI) is further influencing pricing strategies. AI enables more accurate tracking of usage patterns and customer behavior, facilitating the implementation of dynamic pricing models that can adjust in real-time and offer many features. For instance, Salesforce's Agent GPT and other AI-driven tools are prompting a shift from traditional seat-based pricing to more flexible, usage-based models.
+
+How Much Does It Cost to Sell on the AppExchange?
+
+Salesforce makes its money by taking a revenue share in your sales and charging for the expert support, security, and development tools that they offer. While external sales platforms might avoid these, they are unlikely to offer you the same quality of service and confidence.
+
+New Marginal Royalty Bands (2020)
+
+While historically the royalties paid by businesses for each licence type was set, with a 25% royalty paid on the OEM programme and 15% paid on the ISVforce programme, 2020 saw this change to benefit larger, more successful app-producers.
+
+Now, for new businesses only, new revenue share thresholds have been set, and once they are met, the royalty rate paid to Salesforce goes down. For OEM, this means businesses with revenue shares of greater than $20 million pay just 15%, and for ISVforce, this is 10%.
+
+AppExchange Mandatory Security Review
+
+To ensure the security and functionality of paid apps, Salesforce requires a comprehensive Security Review before your app is published on the AppExchange. This review assesses your app's vulnerability to common security threats and evaluates its robustness in protecting customer data, which remains a top priority for Salesforce.
+
+The Security Review is mandatory, with an initial charge of $2,700 for the first year and $300 for subsequent years if you intend to charge customers for your app. However, if your app is completely free, the Security Review is waived.
+
+With the growing adoption of AI and machine learning technologies, Salesforce has introduced new security checks specifically for AI-driven apps. These tests assess the potential security threats posed by machine learning models, ensuring that AI-powered apps are not vulnerable to attacks that traditional security checks might overlook.
+
+Choosing Your Business Model
+
+The business model for your app depends on the service it offers. For add-ons under the ISVforce model, monthly subscriptions may work best, while OEM products might be better suited for one-time payments. Consider how many users will benefit from your app, if more users will drive greater value, a per-user licensing model may be ideal.
+
+AppExchange allows you to revoke licenses for non-payment, protecting developers.
+
+Subscription vs. One-Time Payment Model in 2025
+
+There is a growing trend towards subscription models in 2025. Subscription pricing offers several benefits for your target market, such as recurring revenue and the ability to provide ongoing updates, customer support, and new features.
+
+This model is especially attractive for apps with regular updates or services that add ongoing value. It creates a predictable cash flow, which is crucial for the long-term sustainability of your app business.
+
+On the other hand, one-time payments may still be suitable for apps that deliver a one-off service or feature with limited need for ongoing support or updates. However, with the growing demand for continuous improvement, businesses are increasingly turning to subscription models to better align their pricing with the value provided over time.
+
+Per-User Licenses
+
+Limit the number of users within a customer's Salesforce org who can access the app. When determining seat limits, especially for simple apps, consider the size of the business, the impact on support, and how the number of users can affect app functionality.
+
+Site/Per-Company Licenses
+
+This straightforward license provides access to all users within a customer's business, with options for one-time payments or monthly/yearly subscriptions.
+
+Licenses for Free Apps
+
+Even free apps require a license. Typically, a standard site license is issued, but some apps that sync Salesforce systems with off-platform solutions may require a purchase off-site.
+
+Free Trial Licenses
+
+Offering a free trial allows new customers to test the app. After the trial period, if not canceled, the app will either transition to a paid plan or expire. You control the duration and can suspend trials at any time.
+
+Monthly License
+
+Best suited for apps that offer regular updates or ongoing support, ensuring continuous revenue from customers who benefit from frequent updates.
+
+Annual License
+
+For apps that require less frequent support but provide long-term value, an annual license offers a slower return on investment but stable revenue.
+
+How to Price Your Salesforce App
+Supply and Demand
+
+The demand for your app is the most important factor. Research the market to see how saturated it is with similar solutions. What makes your app unique, and how many businesses would benefit from it? If your app can help streamline business processes or automate tasks, it may have a significant demand across various industries.
+
+Operational Costs
+
+Pricing your app too low might attract users but not cover operating costs, while pricing it too high might deter customers. Calculate how much each user costs you in terms of support, marketing, and development. Make sure your pricing model reflects the costs of sustaining and growing your app.
+
+Check Your Competition
+
+Be aware of your competition’s pricing and features. If larger competitors can offer similar services at a lower price, you may need to adjust your pricing strategy. Consider offering a free trial with a transparent monthly fee afterward to attract customers and refine your product based on feedback.
+
+Average App Prices
+
+App pricing generally ranges between $5 to $25 per user per month or $50 to $100 per month for site licenses. Your app’s price should align with your operational costs and the value it provides to customers.
+
+Get Started With Your App
+
+At MagicFuse, our development team offers full-cycle services for app creators looking to sell their Salesforce apps on the AppExchange. With over 11 years of experience and a specialized team of 50+ certified Salesforce experts, we can guide you through every step of the process.
+
+Whether you need assistance with initial scope definition, market research, or choosing the right Salesforce Partner Program, we’ll help position your app for success. As an official Salesforce AppExchange partner and an ISV partner, MagicFuse has helped over 100 clients successfully publish their apps.
+
+Our Salesforce development company can also assist with determining a competitive pricing strategy, ensuring your app is attractively priced, and helping you target the right customers to maximize your app’s success.
+
+Contact us and let us help you navigate the AppExchange and bring your app to life.
+
+FAQs
+How does the AI-driven pricing model work for Salesforce AppExchange?
+
+AI-driven pricing models use machine learning algorithms to adjust app pricing based on factors such as market demand, customer behavior, and app performance. This allows for dynamic pricing that aligns with the value your app delivers to customers in real time.
+
+What are the new features added to the Security Review process in 2025?
+
+In 2025, Salesforce has introduced specific security checks for AI-powered apps. These tests assess AI-driven security threats, ensuring that machine learning models do not introduce vulnerabilities that traditional security reviews might miss.
+
+How can I ensure my app complies with Salesforce's security standards?
+
+To comply with Salesforce’s security standards, your app should implement best practices like data encryption, secure data storage, and regular security audits. Salesforce's Security Review Guide provides detailed instructions on preparing for the review.
+
+How do I select the right licensing model for my app on AppExchange?
+
+Selecting the right licensing model depends on your app’s functionality, target audience, and pricing structure. If your app offers ongoing updates or support, a subscription model may work best. For apps with more static functionality, a one-time payment model might be more suitable.
+
+How can MagicFuse help me navigate the AppExchange process?
+
+MagicFuse offers end-to-end services for ISVs, including market research, scope definition, AppExchange publishing, pricing strategies, and customer acquisition. With over 11 years of experience and a team of 50+ certified Salesforce experts, MagicFuse is here to guide you through the complexities of the AppExchange to ensure your app’s success.
+
+Salesforce AppExchange
+Last updated:
+7 October 2025
+By:
+Volodymyr Babin
+
+Head of Salesforce Delivery at MagicFuse, certified Salesforce Architect with 13+ years of experience

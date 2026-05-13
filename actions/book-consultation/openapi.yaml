@@ -1,0 +1,23 @@
+openapi: 3.1.0
+info:
+  title: MagicFuse Consultation Action API
+  version: "1.0.0"
+  description: >
+    Minimal action surface for opening the MagicFuse free consultation page.
+servers:
+  - url: https://magicfuse.co
+paths:
+  /contact-us:
+    get:
+      operationId: book_free_consultation
+      summary: Open the MagicFuse free 30-minute consultation page
+      description: >
+        Retrieves the public booking/contact page so the GPT can direct users to
+        schedule a free 30-minute consultation.
+      responses:
+        "200":
+          description: Contact page HTML.
+          content:
+            text/html:
+              schema:
+                type: string

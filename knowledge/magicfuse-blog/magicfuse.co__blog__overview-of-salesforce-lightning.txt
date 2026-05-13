@@ -1,0 +1,112 @@
+Source URL: https://magicfuse.co/blog/overview-of-salesforce-lightning
+Title: Salesforce Lightning: An Overview, Components, and Tutorials
+Fetched at (unix): 1777287400
+
+A coronavirus pandemic has upended the way brands communicate with their audiences. The Salesforce State of the Connected Customer report indicates 88% of customers expect companies to accelerate digital initiatives. This means businesses need to find an effective solution to adapt to new standards of customer engagement and offer customers the ultimate experience. Here where the Salesforce Lightning system comes in handy.
+
+Customise the UI of your Salesforce CRM, increase the productivity of sales and service teams, and take your business to the next level — all these are possible with the Lighting tool. Let’s dive deeper and learn more about Lighting and its capabilities, Lighting components, and how different users can benefit from utilising them.
+
+What Is Salesforce Lightning?
+
+Salesforce Lightning is the next generation of the CRM platform and user experience. With a convenient new design, more productivity tools, AI functionality, Lightning assists in streamlining business processes. You can build personalised, responsive apps without writing a line of code and drive your employees’ productivity by using the Lightning component-based framework.
+
+Lightning includes functionality for optimising Salesforce pages, accelerating app custom development and performance, and much more. The main value technologies of Salesforce Lightning are the following:
+
+Lightning Experience
+
+Lightning Experience is a new version of the Salesforce CRM platform. It has a modern user experience and optimised pages for managing sales and service processes. It offers a new way of interacting within your org by using redesigned Salesforce features, such as standard and custom objects, dashboards and reports, and many others.
+
+Moreover, Lightning Experience includes innovative technologies for building cutting-edge mobile apps.
+
+Lightning Design System
+
+Lightning Design System offers various resources for developers and designers to create user interfaces based on Salesforce Lightning principle, design language, and best use cases. It includes such features as a semantic and accessible component markup, cross-browser compatible CSS, icons, fonts, and design guidelines.
+
+With the Design System, you can build Lightning pages and components, mobile apps accessing Salesforce, and standalone web apps served by Android, IOS, Heroku, and similar platforms.
+
+Lightning Component Framework
+
+Lightning Component Framework is a UI framework for building single-page apps designed for the Salesforce platform and mobile and desktop devices. You can also model Lightning components (reusable custom HTML elements) by using HTML and innovative JavaScript.
+
+Salesforce Classic vs Salesforce Lightning Experience
+
+When we talk about Salesforce Classic, we mean the interface for the CRM platform used before the Lightning release. It has a quite outdated design: small graphics and icons that aren’t shown in high resolution, textual elements that look weird on modern monitors. As a result, it’s not easy to perceive information quickly and navigate within Salesforce.
+
+Salesforce Classic is used mostly by long-standing users who aren’t ready to cross over to a modern interface. In turn, new Salesforce users put on the Lightning mode by default and leave the option to switch to the Classic interface if necessary.
+
+Customers using Lightning Experience are 25% more productive than those working in Salesforce Classic, the Salesforce Lightning Experience-Only Exclusive Features document states. This is because hundreds of new innovative features are only available in Lightning.
+
+Based on the Lightning Adoption Survey, users, who switched to Lightning Experience, reported a 41% increase in productivity, a 22% increase in win rates, a 23% faster time to close the deals, a 40% increase in collaboration, and a 44% increase in conversion rate.
+
+Main Features of Salesforce Lightning
+
+Salesforce Lightning has not only a convenient and beautiful design but also offers exclusive new features for different users, such as business users, admins, and developers. Let’s explore what functionality each user group can benefit from.
+
+For business users
+
+Business users are sales and service reps who use Salesforce CRM to perform their day-to-day tasks, collect valuable information about their clients, and provide a great customer experience. Among the most useful features specifically designed for business users are the following:
+
+Opportunity Workspace. It’s a one-stop dashboard for sales managers that allow them to track deals, visualise progress, and close deals faster. It includes data about customers and related information, such as contacts, products, and notes.
+
+Kanban View. It’s a visual summary of all your records. You can see any list as a kanban board and at the same time view a big picture of all your work. It’s possible to sort, reorganise, filter and move your opportunities along the workflow.
+
+Path and Guidance. These are simple and helpful tools for business users to form a sales workflow with links and tips at each stage, track opportunity records in the sales process, and visualise the goals.
+
+Moreover, business users can utilise Lightning Console Apps, Einstein Search, Lightning Dialer, Favourites, and Integrated Email options to optimise their work and increase their productivity significantly.
+
+For admins
+
+The Salesforce admin’s main task is to customise the platform according to the company’s specific requirements without writing any code. In simple words, they set up the CRM that users can get the most out of Salesforce. For them, there are some beneficial Lightning features, such as:
+
+Lightning App Builder. You can use this point-and-click tool for creating custom pages for the Lightning Experience and Salesforce mobile app. Besides, it’s available to build dashboard-style apps to get sales analytics and “point” apps for solving particular tasks.
+
+Lighting Page Templates. Working on the page in the Lightning App Builder, you have an opportunity to select one of the page templates and view how it looks on desktop and mobile.
+
+Lightning Components. Using functional elements, admins can combine them and build custom apps without requiring any programming skills.
+
+Dynamic Lightning Pages, Lightning Community Builders and Templates, and Lightning Service Setup features also help admins adjust the Salesforce platform properly.
+
+For developers
+
+Salesforce developers design, build, test and deploy customisable apps using Lightning frameworks. Lightning offers a few features that will be in handy for developers, including:
+
+Lightning Design System. It has various UX elements that developers can use to create cutting-edge, robust apps. This flexible, scalable, and living open-source design system is aimed to assist developers in delivering the best possible user experience.
+
+Lightning Components. They’re building blocks used by developers for creating modern, responsive apps. Each element includes built-in JavaScript, markup, and classes and is consistent with Lightning Experience.
+
+Lightning Page Templates. This feature allows building Salesforce custom development page templates according to the unique needs of businesses, admins, and the company’s reps.
+
+Lightning Data Service and Lightning Testing Services features are useful for enhancing data performance and testing components of the apps.
+
+Lightning Components vs. Lightning Web Components
+
+Lightning Components are a UI framework for creating apps used on desktop and mobile. In turn, Lightning Web Components are an upgraded version of Lightning Components. They utilise standard tools like CSS, HTML, and updated Javascript.
+
+One of their advantages is alignment with modern web standards, so developers don’t need to know the Salesforce platform in detail. Lightning Web Components support code reuse and unit testing framework. Apps that include Lightning Web Components perform in browsers faster.
+
+5 Reasons Why You Need to Switch to Lightning
+Lighting offers powerful functionality, including new features, and as a result, expands opportunities for Salesforce developers and admins. Moreover, it provides a better user experience for end-users.
+Another critical advantage of Lightning is its super security. For example, users can’t simply change their assurance levels in-session. They need to log out of Lightning and sign in with an authentication. This is essential for organisations with high-assurance security.
+Lightning is a mobile-friendly software. Considering the statistics (nearly 90% of mobile internet time is spent in apps), it’s important that your apps have a mobile responsive design. Using Lightning, you can create responsive, professional apps and attract more customers.
+With the Lightning Customer Community feature, companies can provide a more personalised customer experience and increase customer satisfaction.
+Users can get access to the Tableau CRM (formerly Einstein Analytics) platform. It has its own database pulled from Salesforce and is automatically updated every hour. You can view fresh, detailed reports thanks to the advanced formula calculation capability of the platform. Please note it’s a paid option ($75-150/month)
+FAQ
+What is Salesforce Lightning?
+
+Salesforce Lightning is a component-based framework for building modern and responsive web applications on the Salesforce platform. It allows developers and administrators to easily create custom user interfaces and business logic using pre-built components, drag-and-drop functionality, and declarative programming.
+
+What are the benefits of Salesforce Lightning?
+
+Improved user experience: Lightning offers a more modern, intuitive, and responsive user interface, with a focus on productivity and efficiency. Faster development: Lightning components are reusable and can be easily assembled using drag-and-drop tools, reducing the time and effort needed to create custom interfaces and business logic. Better performance: Lightning is designed to be faster and more efficient than its predecessor, Salesforce Classic, with improved page load times and reduced network requests. Integration with other systems: Lightning components can be easily integrated with other systems and third-party applications using APIs and web services.
+
+Is Salesforce Lightning free?
+
+Salesforce Lightning is not free, but it is included in most editions of the Salesforce platform. The specific features and capabilities available in Lightning depend on the edition and licensing model you choose. Some features, such as certain advanced analytics and automation capabilities, may require additional fees or licenses.
+
+Salesforce
+Last updated:
+7 November 2025
+By:
+Volodymyr Babin
+
+Head of Salesforce Delivery at MagicFuse, certified Salesforce Architect with 13+ years of experience

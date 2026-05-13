@@ -1,0 +1,6 @@
+https://developer.salesforce.com/
+https://help.salesforce.com
+https://www.salesforce.com/agentforce/
+https://www.salesforce.com/data/
+https://www.salesforce.com/platform/
+https://trailhead.salesforce.com

@@ -1,0 +1,259 @@
+Source URL: https://magicfuse.co/blog/salesforce-health-check-guide
+Title: How to Optimize Your CRM Security and Performance with a Salesforce Health Check
+Fetched at (unix): 1777287438
+
+Salesforce has more than 22% of the global CRM market share, with over 150k customers in 15+ industries. While so many businesses rely on the Salesforce platform, some may not realize the risks created by outdated security settings or inefficient configurations.
+
+Data breaches cost businesses millions of dollars annually, and compliance requirements have become more strict. Thus, ensuring your Salesforce environments are secure and high-performing is not an option - it’s a must.
+
+The Salesforce Health Check is essential for assessing the security state of your Salesforce environment, all from a single page. The tool shows a summary score, demonstrating how your Salesforce org measures against the Salesforce Baseline Standard.
+
+In this article, you’ll learn how to optimize your CRM security and performance with a Salesforce Health Check, why it is vital to run an evaluation for the Salesforce System, and how to conduct the health check step by step.
+
+Understanding Salesforce Health Check
+
+Salesforce Security Health Check (or “org health check”) is a tool that helps thoroughly assess the effectiveness of your Salesforce security features.
+
+Its primary purpose is to analyze your org's security settings and compare them against a baseline, such as the Salesforce Baseline Standard or custom baselines tailored to your organization’s needs. This evaluation generates a Health Check score, which reflects the effectiveness of your security configurations.
+
+The tool categorizes settings into four risk levels: High, Medium, Low, and Informational.
+
+High-risk settings impact your security score most and highlight critical vulnerabilities that require immediate resolution to safeguard your Salesforce environment.
+
+Medium-risk settings indicate areas where security can be strengthened but are less urgent than high-risk issues.
+
+Low-risk settings represent minor concerns that, while not pressing, still contribute to overall security hygiene.
+
+Informational settings, even though they do not affect the score, provide valuable insights into areas where enhancements can further optimize security and performance.
+
+Salesforce Health Check also helps streamline remediation by offering direct links to adjust settings or a “Fix Risks” feature to align them with the selected baseline.
+
+The Salesforce Health Check tool evaluates different policies in your org, including:
+
+Login attempts
+Password policies
+Multi-factor Authentication (MFA)
+Session settings
+Clickjack protection
+HTTPS
+Cross-site scripting (XXS) protection
+
+You may be an Admin managing the same org for years, a PM trying to deal with your company’s Salesforce system, or a consultant coming into a new org. Either way, it’s time to ask, “How is the org doing?” and do a Salesforce Health Check with the help of a Salesforce implementation partner.
+
+Benefits of Regular Health Checks
+
+Salesforce Health Checks should become regular in your practice as they allow you to maintain a secure, efficient, and high-performing CRM environment. With their help, you’ll be able to uncover hidden vulnerabilities, improve operational workflows, and ensure compliance with industry standards. Let’s explore the key benefits:
+
+Enhanced Security and Risk Mitigation
+
+Salesforce Health Check tool identifies gaps in your org's security settings, such as weak password policies or excessive user permissions. Thus, you can proactively address vulnerabilities, safeguard sensitive data, and reduce the potential for unauthorized access.
+
+Optimized System Performance
+
+Regular health checks improve system efficiency by identifying slow processes, redundant customizations, or outdated configurations. This ensures faster response times, streamlined workflows, and improved user experiences, boosting user adoption and overall productivity.
+
+Compliance with Industry Standards
+
+Many organizations operate in highly regulated industries, requiring adherence to GDPR, HIPAA, or FINRA standards. Salesforce Health Check evaluates your settings and business requirements against these benchmarks, helping you maintain compliance and avoid potential fines or reputational damage.
+
+Improved Data Quality
+
+Health Checks ensure that your CRM data remains accurate and consistent by detecting duplicates, incomplete entries, and formatting issues. Clean data is vital for actionable insights and informed decision-making.
+
+Increased User Trust and Engagement
+
+A secure, well-performing Salesforce instance fosters user confidence and encourages platform adoption. Engagement and satisfaction naturally increase when users feel the system is reliable and tailored to their needs.
+
+Future-Readiness and Scalability
+
+Health Checks prepare your Salesforce environment for growth by assessing its scalability and adaptability. This ensures that your CRM can handle increased data loads, user expansion, and integration of new tools without disruptions.
+
+Step-by-Step Guide to Performing a Salesforce Health Check
+
+Before running a Security Health Check, you should prepare for it. It is essential to clearly understand the key security settings and configurations that need attention, such as session settings, password policies, API restrictions, and field security in a Salesforce platform.
+
+Next, ensure you have administrative permission to use the Health Check. Once that is done, collect all necessary documents, including current security settings, policies, and previous security assessments.
+
+Now, you can move on to the Security Health Check process:
+
+Step 1: Access the Salesforce Health Check Tool
+Log in to Salesforce using admin credentials to ensure you have full access to security settings.
+Open Setup by clicking the gear icon in the top right corner and select Setup.
+Use the Quick Find search box and type “Health Check.”
+Click on the  Health Check option under Security Settings.
+Step 2: Review the Health Check Dashboard
+
+To perform this step, you should understand the Health Check Score. The score ranges from 0 to 100, with higher scores indicating better alignment with Salesforce-recommended security standards.
+
+For 54% and less: Very Poor.
+For 55% to 59%: Poor.
+For 70% to 79%: Good.
+For 80% to 89%: Very Good.
+For 90% to 100%: Excellent.
+
+You should also clearly understand the main categories:
+
+High-Risk Settings are most important to fix as they directly impact security (e.g., weak passwords, no MFA, long session timeouts).
+Medium Risk Security Settings are also important but less urgent (e.g., missing IP restrictions, no clickjack protection, HTTP connections).
+Low-Risk Settings have minimal impact but are worth reviewing anyway (e.g., password hints, inactive user accounts).
+Informational Settings provide context, but they don’t affect the score (e.g., inactive Apex triggers, login hour gaps).
+
+If your Health Check Score falls into the "Poor" range (54% or below), immediately address high-risk settings. Review and update medium-risk settings next to strengthen your security posture. Use Salesforce's "Fix Risks" feature where applicable, but ensure changes are tested in a sandbox environment to prevent disruptions.
+
+The default comparison is made against Salesforce’s Baseline Standards.
+
+If your company has unique needs, use a Custom Baseline.
+
+Step 3: Evaluate Key Security Settings
+
+Evaluate these settings:
+
+Password Policies
+
+Here, ensure minimum length and complexity requirements and set an expiration period to reduce security risks from stale passwords.
+
+Session Settings
+
+Implement session timeouts to prevent unauthorized access from idle sessions and enforce IP whitelisting for sensitive environments.
+
+Multi-Factor Authentication (MFA)
+
+Verify that MFA is enabled so all users can add an extra layer of security. Encourage the use of app-based authenticators rather than SMS (because SMS codes can be intercepted via SIM-swapping attacks) for enhanced protection.
+
+Clickjack Protection
+
+Ensure clickjack protection is active for Visualforce pages and user interfaces.
+
+HTTPS and SSL
+
+Enforce HTTPS connections to encrypt data in transit. Next, enable HSTS (HTTP Strict Transport Security) for additional protection.
+
+Cross-Site Scripting (XSS) Protection
+
+Activate XSS protection to prevent malicious scripts from affecting your org.
+
+Step 4: Address Identified Risks
+
+Use the Fix Risks option within the Health Check tool to automatically adjust settings that do not meet the baseline standards. For changes requiring caution, such as permission adjustments, test them in a sandbox environment before applying them in production. Address high-risk issues first, followed by medium and low-risk areas.
+
+Step 5: Create and Apply a Custom Baseline (If Necessary)
+
+If your company has unique regulatory requirements, such as GDPR or HIPAA, create a custom baseline:
+
+Export the Salesforce Baseline Standard from the Health Check tool.
+Edit the XML file to reflect your organization’s security policies.
+Import the updated baseline for future evaluations.
+
+As a result, you’ll be able to measure compliance against tailored criteria and adhere to industry standards.
+
+Step 6: Perform a Comprehensive Data Review
+Navigate to Setup > Company Information.
+Review Data Storage and File Storage to ensure you’re within limits.
+Use tools like Salesforce Optimizer to identify large attachments or unused records.
+Look at API Requests (last 24 hours) to identify excessive usage from integrations or apps.
+Investigate high API call volumes to prevent disruptions from hitting usage limits.
+Step 7: Audit User Access and Permissions
+Go to Setup > Company Information > User Licenses to check available and assigned licenses.
+Generate a Users Report to see inactive or underutilized accounts.
+Review the System Administrator profile and remove admin privileges from users who don’t need full access.
+Use list views in Profiles to check permissions for high-risk data objects (e.g., financial or PII data). Identify users with unnecessary access and revoke permissions.
+Step 8: Optimize Processes and Automations
+Run the Salesforce Optimizer to address flagged issues such as unused fields, inactive workflows, and outdated automation rules.
+Review workflows, Process Builder, and Flow automations.
+Step 9: Document Findings
+Record identified risks, implemented fixes, and pending actions in a shared document. Include screenshots or reports for reference.
+Schedule quarterly or annual Health Checks to ensure ongoing compliance and performance optimization.
+Common Issues Identified by Health Checks and How to Resolve Them
+
+Below are the most common issues identified during Health Checks, along with practical solutions to address them.
+
+Weak Password Policies
+
+Weak password policies, such as short or overly simple passwords, expose the system to unauthorized access.
+
+To address this, organizations should implement stricter password requirements. This includes setting a minimum password length of 12 characters and requiring a mix of uppercase and lowercase letters, numbers, and symbols.
+
+Moreover, enabling password expiration policies ensures users periodically update their credentials, and tracking password history prevents the reuse of previously compromised passwords.
+
+Inadequate Multi-Factor Authentication (MFA) Implementation
+
+The absence of Multi-Factor Authentication (MFA) or reliance on less secure methods like text-based codes leaves the system vulnerable to account compromise.
+
+To strengthen authentication, Salesforce administrators should enable MFA for all users through Session Settings or the MFA Assistant. It's crucial to adopt more secure options, such as app-generated codes or hardware security keys, which comply with Salesforce’s updated security requirements.
+
+Excessive Admin Privileges
+
+Granting too many users System Administrator access creates significant security risks, as it provides unrestricted access to the system.
+
+To mitigate this, organizations should regularly review System Administrator assignments and limit the role to only essential personnel in managing the system. Permission Sets or Role Hierarchies can provide tailored permissions without overexposing sensitive data for users who require additional access but not full admin rights.
+
+Insufficient Data Protection Measures
+
+Data transmitted without encryption or over unsecured channels is vulnerable to interception. Organizations should enable Platform Encryption to protect sensitive fields and enforce HTTPS connections for all user sessions.
+
+Configuring additional security measures, such as Clickjack and XSS Protection, ensures the system is safeguarded against malicious attacks targeting web interfaces and scripts.
+
+Session Management Gaps
+
+Long idle session timeouts and the absence of forced logouts can allow unauthorized access if users leave their session unattended. Thus, administrators should reduce session timeout values to 30 minutes and enable automatic session logout upon timeout. They can also disable session timeout warnings for stricter security controls to prevent bypassing logout prompts.
+
+Overdue Updates for Salesforce Features
+
+Outdated configurations or missed updates can lead to performance issues and incompatibilities with newer features. Organizations should routinely review Salesforce release notes and implement recommended updates to keep the system current. Testing new features in a sandbox environment is a best practice, allowing administrators to ensure compatibility and avoid disruptions before deployment.
+
+Poorly Managed API and Data Usage
+
+Exceeding API limits or data storage capacities can disrupt system operations and integrations. Administrators should monitor API usage regularly and optimize or eliminate redundant integrations. To manage data usage, archiving old records or no longer needed files can free up space. Implementing robust data cleanup processes further ensures efficient storage management.
+
+Non-Compliance with Regulatory Standards
+
+Non-compliance with industry regulations such as GDPR or HIPAA can result in significant legal and financial risks. Organizations should create and implement Custom Baselines tailored to regulatory requirements. To ensure compliance, conducting regular audits of access permissions, field-level security, and sharing settings is essential. Leveraging tools like Salesforce Shield can further enhance data protection and provide comprehensive tracking of changes.
+
+Best Practices for Maintaining Salesforce Health
+
+Maintaining a secure and efficient Salesforce CRM requires a proactive approach to safeguarding data and system functionality. Below are key best practices to ensure the health and security of your Salesforce environment:
+
+Run Regular Security Health Checks
+Use Salesforce's built-in Health Check tool to identify and fix vulnerabilities, manage security settings, and align them with custom or Salesforce baseline standards.
+Enable Multi-Factor Authentication (MFA)
+MFA adds a critical layer of protection against threats like phishing and unauthorized access. Implement advanced authentication methods, such as app-generated codes or security keys.
+Follow the Principle of Least Privilege
+Grant users the minimum permissions needed to perform their tasks. Use permission sets to refine access and restrict unauthorized data exposure.
+Set Login IP Ranges and Trusted IPs
+Restrict access to your Salesforce org by defining permitted IP addresses, reducing the risk of phishing attacks and unauthorized logins.
+Educate Users on Security Practices
+To foster a culture of cybersecurity awareness, train users on the importance of maintaining a secure system, recognizing phishing attempts, and adhering to security protocols.
+Secure Connections and Monitor Access
+Ensure all connections are encrypted using VPNs and updated firmware. Use tools like Salesforce Authenticator to streamline and enhance login security.
+Leverage Advanced Security Tools
+Utilize Salesforce Shield for encryption and monitoring, the Security Center for centralized governance, and tools like the Code Scanner Portal to address vulnerabilities in custom code.
+Why Do You Need a Salesforce Partner to Perform a Salesforce Health Check?
+
+Performing a Salesforce Health Check may seem straightforward, but thoroughly evaluating your Salesforce environment requires expertise beyond basic administration. Without a skilled partner, it’s easy to overlook hidden vulnerabilities, inefficient configurations, or missed opportunities. That’s why partnering with experts like MagicFuse will help you avoid issues affecting your business.
+
+MagicFuse, a leader in Salesforce development with over 10 years of experience, has successfully delivered 150+ projects, including Agentforce implementations. With a team holding 200+ Salesforce certifications and an impressive NPS score of 92%, we are well-equipped to ensure your Salesforce instance is secure, efficient, and aligned with industry best practices.Ready to optimize your Salesforce environment? Contact MagicFuse today to schedule your comprehensive Salesforce Health Check and unlock the full potential of your CRM.
+
+FAQs
+How often should a Salesforce Health Check be performed?
+
+A Salesforce Health Check should be conducted at least once a year. However, quarterly reviews are recommended for businesses handling sensitive data or experiencing rapid changes to ensure optimal security and performance.
+
+Can a Salesforce Health Check identify all security vulnerabilities?
+
+While the Health Check tool is comprehensive, it primarily focuses on Salesforce’s recommended security standards. A deeper audit involving custom configurations and integrations is often needed to uncover more complex vulnerabilities.
+
+Can MagicFuse perform a Salesforce Health Check?
+
+Absolutely! MagicFuse specializes in Salesforce Health Checks, leveraging 10+ years of experience and 200+ certifications to provide thorough assessments and actionable recommendations. Our team ensures your Salesforce environment is secure, optimized, and ready to support your business needs.
+
+What steps should I take if critical issues are identified during the Health Check?
+
+If critical issues are found, prioritize immediately resolving high-risk vulnerabilities, such as weak password policies or unsecured access points. Partner with an expert like MagicFuse to implement strategic fixes, monitor progress, and further optimize your Salesforce environment for long-term stability.
+
+Salesforce
+Last updated:
+7 October 2025
+By:
+Volodymyr Babin
+
+Head of Salesforce Delivery at MagicFuse, certified Salesforce Architect with 13+ years of experience

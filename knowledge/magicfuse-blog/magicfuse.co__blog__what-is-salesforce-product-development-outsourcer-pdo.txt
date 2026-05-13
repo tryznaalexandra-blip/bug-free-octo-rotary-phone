@@ -1,0 +1,101 @@
+Source URL: https://magicfuse.co/blog/what-is-salesforce-product-development-outsourcer-pdo
+Title: What is Salesforce Product Development Outsourcer (PDO)?
+Fetched at (unix): 1777287537
+
+Introduction
+
+Salesforce market is growing very fast these years. It is estimated that in 2020 the Salesforce ecosystem will be worth around 73 billion U.S. dollars. More and more enterprises and companies adopt Salesforce every day. That creates an entire world around Salesforce products, services, consultants, and startups. As many of you know, many Salesforce customization companies and AppExchange ISV products are official partners of Salesforce. On a global scale, there are more than 1300 consulting companies and more than 3600 ISV apps.
+
+Of course, various consultants and ISVs have different industry or service competencies. However, almost all of them face some cases when there is a need for custom Salesforce app development, package creation & deployment, security review, or Salesforce integration with other APIs, products, or internal systems.
+
+In these cases, Salesforce consultants and ISVs either handle this work with their own in-house Salesforce developers or go to a particular group of Salesforce Consultants called PDOs — Product Development Outsourcing companies. PDO is a very new and unique type of Salesforce partner that is 100% focused on the technical side of Salesforce. So, in this article, we will shed more light on what PDO is, what types of PDO exist, and how to find a PDO company on AppExchange.
+
+Based on our research, there are less than 20 Salesforce PDO companies worldwide in Q4 2019.
+What is Salesforce PDO company?
+
+According to Salesforce, Product Development Outsourcers (PDOs) represent a broad spectrum of consulting partners and vendors with expertise in building commercial apps and other valuable services like training, funding, marketing, or selling your app. These specialized partners can help architect & design a commercial app, tackle specific areas of your build (like third-party integrations).
+
+In other words, Salesforce PDOs aim to handle all the technical issues, integrations with 3rd party services, technical implementation or configuration, or custom component development. Even though these companies primarily focus on the technical side of Salesforce, they can also serve as a team extension for other Salesforce partners that miss sufficient Salesforce development capabilities.
+
+What are the main benefits of Salesforce PDOs?
+Salesforce PDOs can handle the whole technical scope of any Salesforce project from the discovery phase to AppExchange app development, deployment, or delivery for implementation projects.
+As PDOs work mainly with custom development, integrations, and app deployments, you can focus on principal business and product challenges. The advantage of having a PDO on your team is that they will consider security throughout the development process, not just at the beginning or conclusion.
+Usually, PDOs work in conjunction with your business team so that you can avoid any issues in the area of technical project requirements.
+PDOs can handle the Salesforce security review process if there is an ISV case.
+PDOs can work on multiple projects simultaneously if they work with other Salesforce consulting companies that miss development capacity or expertise.
+If you work with offshore or nearshore Salesforce PDOs, you can decrease the costs and increase the project's profitability.
+PDOs provide you with insider information on product strategies, allowing you to make sensible business decisions that will help your application stand out from the crowd.
+PDOs can also help to transfer all technical documentation, so your clients can use it for further needs with other partners, codebase updates and improvements, or different integrations.
+PDOs can help you to conduct a successful technical pre-sales process and correctly evaluate the project timelines and budget.
+What types of Salesforce PDOs exist?
+
+Even if Salesforce PDO is a subcategory of the Salesforce Consulting Partner group, there are certain levels and clusters for these PDO companies. In general, there are four main tiers for Salesforce PDO organizations.
+
+Certified Specialist
+Certified Navigator
+Specialist Navigator
+Masters Navigator
+
+The main difference between them is the partnership status represented in search filtering on AppExchange plus some additional domain expertise inside of Salesforce ecosystem. The requirements are different for each level. Also, PDO program has specialization directories for these partners that become available for the top 2 PDO tiers — Specialist Navigator and Masters Navigator. You can see the full list of possible specializations below. Some specialties are not within the PDO Master selection on the project/story submission form. That is because it is a specialization within another Product Master. The ones that start with PDO are specific to the PDO Masters.
+
+PDO: Integration / Connects Apps / Lightning Connect
+PDO: Security Review & AppExchange Listing
+PDO: Namespaces / Managed Packages
+PDO: LMA / COA / Environment Hub
+Custom App Dev — Process
+PDO: Trialforce
+PDO: Lightning Components
+PDO: Einstein Analytics
+PDO: Shield
+Salesforce Platform: Custom App Dev — Coding
+Salesforce Platform: Large Data Volumes (over 5 Million Records in the org)
+Salesforce Platform: Heroku Application Development and Data Services
+Salesforce Platform: Mobile Customer App Dev (Salesforce SDK/Force)
+Community Cloud: Self-Service Community (B2C/B2B)
+How to find Salesforce PDOs on AppExchange?
+
+The AppExchange platform has a filter for AppExchange App Development. Also, your Salesforce Partner Account Managers and other Technical Evangelists can refer to proper PDOs that best fit specific requirements.
+
+The AppExchange platform includes a filter that is utilized in the building of AppExchange apps. Salesforce account managers or technical evangelists might recommend the best PDOs for specific purposes.
+
+Who is responsible for PDOs at Salesforce?
+
+Based on the publicly available information, we found three people at Salesforce who are involved in the partner process related to PDO program.
+
+Verity Denman — EMEA Senior Partner Program Manager at Salesforce
+Ravi Ravichandran — Architect at Salesforce
+Marc Kuster — Director, AppExchange & ISV Technical Enablement EMEA at Salesforce.
+To sum up
+
+PDOs are a feasible route to market for AppExchange Applications. They enable organizations that use AppExchange to facilitate integrations by getting your software onto the marketplace fast and at a low cost.
+
+You will witness quicker time-to-market, meaningful user engagement, and accelerated growth for your Salesforce AppExchange product through our trusted delivery methodology, Salesforce architecture knowledge, and entire product life cycle strategy.
+
+To recap, PDO can:
+
+drive customer adoption by providing a consistent Salesforce customer experience that expands as your company grows
+create a profitable business with a bespoke product built on Salesforce and designed with results-oriented KPIs
+expand your product into Salesforce AppExchange and enter a new market with a partner that can assist you in determining the best product-market fit
+
+MagicFuse is a product development & consulting company purely focused on the technical side of Salesforce with a great ambition to receive an official designation of Salesforce Masters Navigator PDO company. If you have questions regarding Salesforce PDO or any other matter around the Salesforce ecosystem, please visit our website — https://magicfuse.co. Also, you can contact us directly at hello@magicfuse.co.
+
+FAQ
+What is PDO in Salesforce?
+
+A PDO is a Salesforce employee who is assigned to work with Salesforce partners to help them build and grow their Salesforce practice. The role of a PDO is to provide partners with strategic guidance, technical support, and business development resources to help them succeed.
+
+What are benefits of Salesforce PDOs?
+
+Working with a Salesforce PDO can provide numerous benefits for partners, including: Access to specialized Salesforce expertise and resources. Guidance on best practices for building and growing a Salesforce practice. Assistance with technical issues and implementation challenges. Help with developing sales and marketing strategies to reach new clients. Increased credibility with clients due to the partnership with Salesforce.
+
+What are types of Salesforce PDOs?
+
+Each type of PDO has a specific focus and provides different types of support to partners. Regional PDOs work with partners in specific geographic regions to provide localized support and resources, while industry-specific PDOs have specialized knowledge and experience in specific industries. Technical PDOs provide technical guidance and support, while business development PDOs help partners with sales and marketing strategies, lead generation, and other business development activities.
+
+Salesforce
+Last updated:
+19 March 2026
+By:
+Volodymyr Babin
+
+Head of Salesforce Delivery at MagicFuse, certified Salesforce Architect with 13+ years of experience

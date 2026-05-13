@@ -1,0 +1,220 @@
+Source URL: https://magicfuse.co/blog/isv-partnerships
+Title: ISV Partnerships - Salesforce OEM vs ISVforce
+Fetched at (unix): 1777287388
+
+The AppExchange, Salesforce’s app marketplace, lists over 7,000 apps and certified consulting organizations. In fact, 90% of Fortune 500 companies use an AppExchange product, and 91% of Salesforce customers have at least one install. This highlights the massive potential for independent software vendors to create and distribute their applications within the Salesforce ecosystem.
+
+Salesforce has evolved into one of the most powerful cloud ecosystems, presenting a significant opportunity for independent software vendors to tap into a vast customer base and integrate with its suite of customer relationship management tools. With Salesforce’s ISV partnership programs, businesses can deliver solutions that complement and enhance existing Salesforce functionalities while reaching a highly engaged audience.
+
+To help ISVs monetize their applications, Salesforce offers two primary partnership models: OEM (Original Equipment Manufacturer) and ISVforce. These models dictate how you can distribute and license applications, who you can target, and the level of Salesforce functionality you can access. Choosing the right model is critical for long-term success on AppExchange.
+
+This article explores the key differences, benefits, and drawbacks of Salesforce OEM vs. ISVforce, helping independent software vendors make an informed decision that aligns with their business strategy.
+
+What is the Salesforce OEM Model?
+
+The OEM model is designed for ISVs developing their own software applications for businesses that may not be existing Salesforce users. Instead of requiring customers to purchase a Salesforce license separately, the ISV embeds a Salesforce license within the application, allowing users to access specific Salesforce functionalities without a direct Salesforce subscription.
+
+According to Salesforce’s ISV Guide, an OEM partner can package their app with a Salesforce Platform Embedded License, which grants access to the Lightning Platform but restricts the use of core CRM objects such as Leads, Opportunities, and Cases.
+
+The OEM model is particularly useful for businesses that want to build software solutions for industries where CRM is not the primary focus but a supporting feature. This includes ERP systems, data analytics tools, supply chain management software products**, healthcare applications, and more**.
+
+Key Features of OEM Partnership:
+
+Sell to non-Salesforce users: You can market your applications to a broader audience beyond Salesforce customers, unlocking opportunities in various industries.
+Embedded Salesforce licenses: Customers do not need to purchase a separate Salesforce license, as the required platform access is included within the application.
+Limited access to standard CRM objects: OEM apps cannot use core CRM functionalities like Leads, Opportunities, and Cases. However, ISVs can create custom objects and workflows to provide similar functionalities within their applications.
+Flexible pricing & branding: Businesses retain full control over pricing structures and branding, allowing them to customize licensing models according to their go-to-market strategy.
+Independent customer management: Since the application operates as a standalone solution, ISVs own the customer relationship and are responsible for support and user management.
+
+Example of Use: A construction management software company wants to build a project tracking and reporting tool that integrates with Salesforce but targets companies that do not currently use Salesforce CRM. By leveraging the OEM model, the ISV partner can embed Salesforce’s platform capabilities while maintaining its own branding and pricing model.
+
+What is the ISVforce Model?
+
+In contrast, the ISVforce model is built for businesses that sell applications directly to Salesforce customers. These applications extend Salesforce’s existing CRM capabilities by leveraging standard objects, automation, and data models that Salesforce users already utilize.
+
+According to Salesforce Ben, ISVforce partners must align with Salesforce’s existing licensing model, meaning customers must already have Salesforce subscriptions to use the application. This ensures deep integration and a more seamless user experience for Salesforce users.
+
+ISVforce is the preferred model for ISVs creating applications that:
+
+Enhance sales, marketing, or customer service workflows
+Leverage AI, automation, or predictive analytics based on Salesforce data
+Offer industry-specific extensions that complement Salesforce Cloud solutions
+
+Key Features of ISVforce Partnership:
+
+Seamless integration with Salesforce: ISVforce apps can leverage standard CRM objects, making them a natural extension of Salesforce’s ecosystem.
+Full access to CRM functionalities: Unlike OEM, ISVforce apps can use standard objects like Leads, Opportunities, and Cases, enabling deeper sales and marketing automation.
+Requires existing Salesforce licenses: Customers must already have a Salesforce subscription to use the app, which means the ISV’s market is limited to Salesforce’s user base.
+Exclusive distribution through Salesforce AppExchange: ISVforce apps must be listed on AppExchange, Salesforce’s official marketplace, ensuring visibility to millions of Salesforce customers.
+Revenue-sharing model with Salesforce: ISVs using ISVforce share a percentage of their revenue with Salesforce based on partnership agreements.
+
+Example of Use: A marketing automation software company wants to build an app that automates email campaigns, and scores leads within Salesforce. Since the application needs direct access to Salesforce’s standard objects and automation features, the ISVforce model is the best fit.
+
+Benefits and Limitations of Each Model
+
+Salesforce’s ISV partnership models offer distinct advantages and challenges, making it essential for ISVs to carefully evaluate their business goals, market reach, operational efficiency, and technical requirements before choosing between OEM and ISVforce.
+
+OEM Partnership Advantages and Drawbacks
+
+The OEM model provides greater independence and flexibility for ISVs looking to sell standalone applications. However, it comes with limitations in terms of Salesforce feature access and market reach.
+
+Advantages of the OEM Model
+
+Independent Branding & Licensing: ISVs have full control over their app’s branding and pricing structure, as they are not tied to Salesforce’s licensing models.
+Expanded Market Reach: By embedding Salesforce licenses, independent software vendors ISVs can sell to businesses that do not have existing Salesforce subscriptions.
+Less Dependency on Salesforce Licenses: Customers can use the app without requiring full Salesforce CRM access, making the solution appealing to non-Salesforce users.
+Customization & Standalone Functionality: The app can be tailored to specific industries or needs without relying on Salesforce’s native CRM features.
+
+Drawbacks of the OEM Model
+
+Limited Access to Core Salesforce Features: OEM apps cannot use standard CRM objects like Leads, Opportunities, or Cases, which may limit their capabilities for some users.
+Higher Development Requirements: ISVs may need to build custom functionalities to replace Salesforce-native CRM features, increasing development time and costs.
+Market Fit Challenges: While the OEM model provides independence, it may not be the best fit for businesses that already rely on Salesforce CRM and prefer native integrations.
+ISVforce Partnership Advantages and Drawbacks
+
+The ISVforce model is a complete solution designed for ISVs that want to develop deeply integrated solutions for Salesforce users. By leveraging the full suite of Salesforce’s CRM capabilities and tech stack, ISVforce applications provide a seamless experience for customers who are already invested in the platform.
+
+Advantages of the ISVforce Model
+
+Full Access to Salesforce CRM Features: ISVforce partners can use all standard CRM objects, allowing for automation, workflows, and deep integration with Salesforce data.
+Direct AppExchange Distribution: ISVforce apps are listed on Salesforce AppExchange, increasing their visibility to millions of Salesforce customers.
+Stronger Salesforce User Engagement: Because ISVforce apps are built within the Salesforce ecosystem, they benefit from faster adoption rates among Salesforce users.
+Salesforce Security & Scalability: Apps integrate seamlessly with Salesforce’s infrastructure, ensuring enhanced security and compliance.
+
+Drawbacks of the ISVforce Model
+
+Limited Customer Base: Customers must already have a Salesforce license to use an ISVforce app, restricting the market compared to OEM.
+Revenue Sharing with Salesforce: ISVs must pay a percentage of their revenue to Salesforce, which can impact profitability.
+Less Flexibility in Licensing: Pricing structures must align with Salesforce’s existing licensing framework, reducing the control ISVs have over pricing models.
+Comparison Table of Salesforce OEM vs ISVforce
+Licensing, Revenue Sharing, and Trial Management for ISVs
+
+Choosing between OEM and ISVforce is not just about functionality, it also impacts licensing, revenue-sharing, and even customer retention and onboarding. ISVs must consider how their app will be licensed, how Salesforce will share in the revenue, and how to manage customer trials effectively.
+
+How Licensing Works for OEM and ISVforce Partners
+
+OEM partners act as resellers of Salesforce Platform licenses. They embed Salesforce licenses in their applications, allowing non-Salesforce customers to use the platform without purchasing a separate Salesforce subscription.
+
+There are two types of OEM licenses:
+
+OEM Embedded License: Grants access to custom objects but blocks standard CRM objects (Leads, Opportunities, Cases).
+OEM Embedded with API Access: Extends API capabilities for external integrations but still restricts CRM functionalities.
+
+ISVforce partners, on the other hand, rely on their customers' existing Salesforce licenses. This means customers must already be Salesforce users with Sales Cloud, Service Cloud, or another relevant license. The ISVforce app enhances the Salesforce experience with additional functionality rather than acting as a standalone product.
+
+For instance, if an ISVforce app generates $100,000 annually, Salesforce takes $15,000 as part of the revenue-sharing agreement. A 30-day Trialforce trial that converts to a paid user also contributes to the 15% fee.
+
+Managing Trials and Licensing for Your Salesforce App
+
+One major advantage of the Salesforce ISV program is the ability to offer trials and manage customer licenses efficiently. This is handled through Trialforce, the License Management App (LMA), and Channel Order Applications (COA).
+
+Trialforce
+
+Salesforce Trialforce allows ISVs to create pre-configured trial environments for potential customers. This means that customers can experience the app before purchasing, helping increase adoption rates.
+
+ISVs can set up time-limited trial versions (e.g., 14-day or 30-day trials).
+At the end of the trial, users can convert to paying customers without needing a new setup.
+Trials are managed through Trialforce templates, which must pass Salesforce’s Security Review before being used.
+
+License Management App (LMA)
+
+The License Management App (LMA) enables ISVs to control customer licenses, including adding, removing, and suspending seats.
+
+ISVs can track customer installations and monitor how many users are actively using the app.
+If a customer fails to pay or violates usage terms, the ISV can suspend access remotely.
+The Subscriber Console allows ISVs to log into customer environments for support and troubleshooting.
+
+Channel Order Applications (COA)
+
+The COA system is what ISVs use to make payments, report sales to Salesforce and process revenue-sharing payments.
+
+When a new customer converts from trial to paid, the ISV submits a COA order to Salesforce.
+Salesforce then provisions the licenses and invoices the ISV for the agreed percentage of net revenue (15% for ISVforce, 25% for OEM).
+COA orders must be submitted within a defined timeframe to avoid compliance issues.
+Key Considerations for ISVs Choosing a Partnership Model
+
+Selecting between Salesforce OEM and ISVforce requires a clear understanding of your target audience, functional requirements, and long-term deployment strategy. Each model comes with its own constraints and advantages, making it essential to align your choice with your business goals and technical capabilities.
+
+Target Audience - Who Is Your App Built For?
+
+The intended user base is the first and most important major deciding factor when deciding between OEM and ISVforce.
+
+If your app targets businesses that do not use Salesforce, the OEM model allows you to sell a standalone solution without requiring customers to purchase a Salesforce subscription. This makes sense for ERP systems, supply chain management software, custom reporting tools, or industry-specific solutions that do not rely on CRM functionality.
+If your app is designed for Salesforce users and enhances Sales, Service, or Marketing Cloud, then ISVforce is the better choice. Your app will seamlessly integrate with Salesforce’s standard objects (e.g., Leads, Opportunities, Cases) and be distributed through AppExchange, making it easily accessible to Salesforce customers.
+
+Example Scenario: A healthcare analytics platform that processes patient data and integrates with multiple healthcare systems without needing Salesforce’s CRM functionalities would be best suited for OEM. On the other hand, a lead enrichment tool that enhances Salesforce’s Sales Cloud should use ISVforce to leverage CRM data directly.
+
+Functional Needs - How Deeply Does Your App Need to Integrate with Salesforce?
+
+The level of Salesforce functionality your app requires is another critical consideration.
+
+Limited Salesforce Features Required → OEM Model
+
+If your app needs basic Salesforce platform capabilities but does not require standard CRM objects like Leads or Opportunities, OEM is a good fit.
+
+OEM partners can use custom objects, Apex code, and Lightning components, but cannot expose core CRM features to end users.
+
+Example: A compliance tracking tool that runs on Salesforce’s platform but does not interact with CRM workflows.
+
+Full Salesforce Integration Required → ISVforce Model
+
+If your app relies on Salesforce CRM functionalities, ISVforce is the only option. Your application can access standard objects, automation tools (Flow, Apex Triggers), and AI-driven analytics within Salesforce.
+
+Example: A forecasting tool that analyzes Salesforce pipeline data to predict revenue trends.
+
+Software Solutions Deployment and Support - What Are the Long-Term Implications?
+
+Beyond the initial build, ISVs must plan for long-term maintenance, scalability, and customer support.
+
+OEM apps require more independent support.
+
+Since OEM partners manage their own customers, they are responsible for updates, security patches, and ongoing compatibility with Salesforce.
+No direct Salesforce support - the ISV must handle customer onboarding and issue resolution.
+Best suited for ISVs with dedicated technical teams and independent hosting capabilities.
+
+ISVforce apps benefit from Salesforce’s infrastructure.
+
+ISVforce apps run within Salesforce’s managed environment, reducing infrastructure maintenance for ISVs.
+Automatic compatibility with Salesforce upgrades, simplifying long-term maintenance.
+Access to Salesforce’s support network, but ISVs must comply with Salesforce’s security and compliance requirements.
+
+Example Scenario: A data visualization tool that integrates with Salesforce dashboards will benefit from ISVforce’s AppExchange distribution and automatic versioning. However, a standalone business intelligence tool that needs independent licensing and customization would be better suited for OEM.
+
+Conclusion
+
+The right Salesforce ISV partnership depends on your app’s functionality and target market. ISVforce is ideal for apps that integrate deeply with Salesforce and enhance CRM capabilities, while OEM suits standalone solutions for non-Salesforce users. Each model impacts licensing, pricing, and distribution, making it essential to align with your business goals.
+
+With 10+ years of experience, 200+ Salesforce certifications, and Crest Salesforce Consulting Partner status, MagicFuse specializes in Salesforce ISV development, guiding ISVs through licensing, compliance, and AppExchange success, and offering ongoing technical support. Contact us to find the best strategy for your app.
+
+FAQs
+What is the main difference between Salesforce OEM and ISVforce for an ISV partner?
+
+Salesforce OEM allows ISVs to embed Salesforce licenses and sell standalone applications to non-Salesforce users, but with limited access to standard CRM objects. ISVforce, on the other hand, is designed for Salesforce customers. It provides full CRM integration and requires users to have existing Salesforce licenses.
+
+Which partnership model is more suitable for an app targeting non-Salesforce users?
+
+The OEM model is better for apps targeting new markets and businesses that do not use Salesforce. It allows ISVs to embed Salesforce Platform licenses, offering a self-contained solution without requiring customers to purchase Salesforce separately.
+
+Can independent software vendors switch between OEM and ISVforce models if needed?
+
+Yes, but switching between models is complex and requires Salesforce approval. ISVs must also update their licensing, revenue-sharing agreements, and AppExchange listings, which could potentially affect existing customers. Therefore, it is crucial to evaluate long-term business needs before choosing a model.
+
+What level of Salesforce functionality is accessible in the OEM model?
+
+OEM apps can access custom objects, workflows, and automation on the Salesforce Platform, but cannot use core CRM objects like Leads, Opportunities, and Cases. ISVs must build custom solutions if CRM-like features are needed.
+
+How does ISVforce benefit apps intended for AppExchange?
+
+ISVforce apps get full access to Salesforce CRM features and are listed on AppExchange, providing greater visibility among Salesforce customers. This model allows ISVs to tap into Salesforce’s existing user base and leverage native integrations to enhance CRM functionality.
+
+What is a Payment Partnership?
+
+A Payment Partnership in the Salesforce ISV ecosystem refers to the revenue-sharing agreement between ISVs and Salesforce for apps sold through AppExchange. ISVs using ISVforce or OEM models must share a percentage of their app’s revenue with Salesforce, typically 15% for ISVforce and 25% for OEM.
+
+Salesforce AppExchange
+Last updated:
+10 November 2025
+By:
+Volodymyr Babin
+
+Head of Salesforce Delivery at MagicFuse, certified Salesforce Architect with 13+ years of experience

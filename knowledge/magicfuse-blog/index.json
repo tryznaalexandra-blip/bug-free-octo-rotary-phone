@@ -1,0 +1,394 @@
+{
+  "generated_unix": 1777287538,
+  "seed_urls": [
+    "https://magicfuse.co/blog",
+    "https://magicfuse.co/blog/tag/salesforce",
+    "https://magicfuse.co/blog/tag/salesforce-agentforce",
+    "https://magicfuse.co/blog/tag/salesforce-appexchange",
+    "https://magicfuse.co/blog/tag/salesforce-commerce-cloud",
+    "https://magicfuse.co/blog/tag/salesforce-consulting",
+    "https://magicfuse.co/blog/tag/salesforce-data-cloud",
+    "https://magicfuse.co/blog/tag/salesforce-development",
+    "https://magicfuse.co/blog/tag/salesforce-education-cloud",
+    "https://magicfuse.co/blog/tag/salesforce-einstein-ai",
+    "https://magicfuse.co/blog/tag/salesforce-integration",
+    "https://magicfuse.co/blog/tag/salesforce-lightning",
+    "https://magicfuse.co/blog/tag/salesforce-marketing",
+    "https://magicfuse.co/blog/tag/salesforce-pdo",
+    "https://magicfuse.co/blog/tag/salesforce-partners",
+    "https://magicfuse.co/blog/tag/salesforce-sales-cloud",
+    "https://magicfuse.co/blog/tag/salesforce-service-cloud"
+  ],
+  "listing_failures": {},
+  "post_failures": {},
+  "fetched": 61,
+  "failed": 0,
+  "rows": [
+    {
+      "url": "https://magicfuse.co/blog/2gp-developer-guide",
+      "title": "2GP Developer Guide: A Complete Guide to Second-Generation Managed Packaging",
+      "output_file": "magicfuse.co__blog__2gp-developer-guide.txt",
+      "fetched_unix": 1777287282
+    },
+    {
+      "url": "https://magicfuse.co/blog/6-tips-for-choosing-the-right-salesforce-consulting-company",
+      "title": "Looking For a Salesforce Consulting Partner?",
+      "output_file": "magicfuse.co__blog__6-tips-for-choosing-the-right-salesforce-consulting-company.txt",
+      "fetched_unix": 1777287287
+    },
+    {
+      "url": "https://magicfuse.co/blog/agentforce-cost",
+      "title": "Agentforce Cost in 2026: What You Need to Know",
+      "output_file": "magicfuse.co__blog__agentforce-cost.txt",
+      "fetched_unix": 1777287291
+    },
+    {
+      "url": "https://magicfuse.co/blog/agentforce-financial-services",
+      "title": "Agentforce for Financial Services: Streamlining Operations and Enhancing Efficiency",
+      "output_file": "magicfuse.co__blog__agentforce-financial-services.txt",
+      "fetched_unix": 1777287295
+    },
+    {
+      "url": "https://magicfuse.co/blog/agentforce-for-field-service",
+      "title": "Agentforce for Field Service: Improving Field Operations and Productivity",
+      "output_file": "magicfuse.co__blog__agentforce-for-field-service.txt",
+      "fetched_unix": 1777287299
+    },
+    {
+      "url": "https://magicfuse.co/blog/agentforce-for-marketing",
+      "title": "How Agentforce for Marketing Enhances Your Campaigns",
+      "output_file": "magicfuse.co__blog__agentforce-for-marketing.txt",
+      "fetched_unix": 1777287304
+    },
+    {
+      "url": "https://magicfuse.co/blog/agentforce-for-sales",
+      "title": "How Agentforce for Sales Helps Teams Close Deals Faster",
+      "output_file": "magicfuse.co__blog__agentforce-for-sales.txt",
+      "fetched_unix": 1777287309
+    },
+    {
+      "url": "https://magicfuse.co/blog/apex-integration",
+      "title": "Apex Integration Guide: Leveraging AI to Extend Salesforce Functionality",
+      "output_file": "magicfuse.co__blog__apex-integration.txt",
+      "fetched_unix": 1777287313
+    },
+    {
+      "url": "https://magicfuse.co/blog/appexchange-development-companies",
+      "title": "Top Salesforce AppExchange Development Companies for Custom App Solutions",
+      "output_file": "magicfuse.co__blog__appexchange-development-companies.txt",
+      "fetched_unix": 1777287317
+    },
+    {
+      "url": "https://magicfuse.co/blog/appexchange-pricing-and-monetisation",
+      "title": "Salesforce AppExchange Pricing Model and Monetisation",
+      "output_file": "magicfuse.co__blog__appexchange-pricing-and-monetisation.txt",
+      "fetched_unix": 1777287321
+    },
+    {
+      "url": "https://magicfuse.co/blog/asana-integration",
+      "title": "Asana Integration with Salesforce: The Complete Setup Guide",
+      "output_file": "magicfuse.co__blog__asana-integration.txt",
+      "fetched_unix": 1777287325
+    },
+    {
+      "url": "https://magicfuse.co/blog/avoid-these-5-common-mistakes-when-you-hire-a-salesforce-consultant",
+      "title": "Avoid These 5 Common Mistakes When You Hire a Salesforce Consultant",
+      "output_file": "magicfuse.co__blog__avoid-these-5-common-mistakes-when-you-hire-a-salesforce-consultant.txt",
+      "fetched_unix": 1777287329
+    },
+    {
+      "url": "https://magicfuse.co/blog/aws-eventbridge-integration",
+      "title": "Salesforce and AWS EventBridge Integration: Maximize Data Connectivity and Automation",
+      "output_file": "magicfuse.co__blog__aws-eventbridge-integration.txt",
+      "fetched_unix": 1777287334
+    },
+    {
+      "url": "https://magicfuse.co/blog/b2b-commerce-implementation-mistakes",
+      "title": "Common Salesforce B2B Commerce Implementation Mistakes (and How to Avoid Them)",
+      "output_file": "magicfuse.co__blog__b2b-commerce-implementation-mistakes.txt",
+      "fetched_unix": 1777287338
+    },
+    {
+      "url": "https://magicfuse.co/blog/cdp-vs-data-cloud",
+      "title": "Salesforce CDP vs. Data Cloud: Maximize Your Data Management Efficiency",
+      "output_file": "magicfuse.co__blog__cdp-vs-data-cloud.txt",
+      "fetched_unix": 1777287342
+    },
+    {
+      "url": "https://magicfuse.co/blog/comparing-salesforce-data-cloud-vs-snowflake-which-is-right-for-you",
+      "title": "Comparing Salesforce Data Cloud vs Snowflake: Which is Right for You?",
+      "output_file": "magicfuse.co__blog__comparing-salesforce-data-cloud-vs-snowflake-which-is-right-for-you.txt",
+      "fetched_unix": 1777287346
+    },
+    {
+      "url": "https://magicfuse.co/blog/data-cloud-limits",
+      "title": "Understanding Salesforce Data Cloud Limits: Maximize Your Usage",
+      "output_file": "magicfuse.co__blog__data-cloud-limits.txt",
+      "fetched_unix": 1777287350
+    },
+    {
+      "url": "https://magicfuse.co/blog/einstein-copilot-salesforce-implementation-guide",
+      "title": "Einstein Copilot Salesforce Implementation: A Step-by-Step Guide",
+      "output_file": "magicfuse.co__blog__einstein-copilot-salesforce-implementation-guide.txt",
+      "fetched_unix": 1777287354
+    },
+    {
+      "url": "https://magicfuse.co/blog/erp-integration-with-salesforce",
+      "title": "ERP Integration With Salesforce: How to Build a Seamless CRM + ERP Data Flow",
+      "output_file": "magicfuse.co__blog__erp-integration-with-salesforce.txt",
+      "fetched_unix": 1777287359
+    },
+    {
+      "url": "https://magicfuse.co/blog/health-cloud-ehr-integration-challenges",
+      "title": "Salesforce Health Cloud EHR Integration Challenges and Solutions",
+      "output_file": "magicfuse.co__blog__health-cloud-ehr-integration-challenges.txt",
+      "fetched_unix": 1777287363
+    },
+    {
+      "url": "https://magicfuse.co/blog/how-to-build-an-app-for-appexchange",
+      "title": "How to Build an App for Salesforce AppExchange: A Complete Guide",
+      "output_file": "magicfuse.co__blog__how-to-build-an-app-for-appexchange.txt",
+      "fetched_unix": 1777287367
+    },
+    {
+      "url": "https://magicfuse.co/blog/how-to-choose-appexchange-development-company",
+      "title": "How to Choose the Best AppExchange App Development Company for Your Project",
+      "output_file": "magicfuse.co__blog__how-to-choose-appexchange-development-company.txt",
+      "fetched_unix": 1777287371
+    },
+    {
+      "url": "https://magicfuse.co/blog/how-to-integrate-salesforce-with-microsoft-teams",
+      "title": "How to Integrate Salesforce with Microsoft Teams (Step-by-Step)",
+      "output_file": "magicfuse.co__blog__how-to-integrate-salesforce-with-microsoft-teams.txt",
+      "fetched_unix": 1777287375
+    },
+    {
+      "url": "https://magicfuse.co/blog/how-to-pass-salesforce-appexchange-security-review",
+      "title": "Salesforce AppExchange Security Review: Updates and Tips for Passing",
+      "output_file": "magicfuse.co__blog__how-to-pass-salesforce-appexchange-security-review.txt",
+      "fetched_unix": 1777287379
+    },
+    {
+      "url": "https://magicfuse.co/blog/inhouse-vs-remote-salesforce-developers-who-to-choose",
+      "title": "In-House VS Outsource: What to Choose When Looking for Salesforce Devs?",
+      "output_file": "magicfuse.co__blog__inhouse-vs-remote-salesforce-developers-who-to-choose.txt",
+      "fetched_unix": 1777287383
+    },
+    {
+      "url": "https://magicfuse.co/blog/isv-partnerships",
+      "title": "ISV Partnerships - Salesforce OEM vs ISVforce",
+      "output_file": "magicfuse.co__blog__isv-partnerships.txt",
+      "fetched_unix": 1777287388
+    },
+    {
+      "url": "https://magicfuse.co/blog/maximizing-business-insights-harnessing-the-power-of-salesforce-data-cloud",
+      "title": "Maximizing Business Insights: Harnessing the Power of Salesforce Data Cloud",
+      "output_file": "magicfuse.co__blog__maximizing-business-insights-harnessing-the-power-of-salesforce-data-cloud.txt",
+      "fetched_unix": 1777287392
+    },
+    {
+      "url": "https://magicfuse.co/blog/microsoft-dynamics-365-integration",
+      "title": "How to Integrate Salesforce with Microsoft Dynamics 365 for Unified Business Operations",
+      "output_file": "magicfuse.co__blog__microsoft-dynamics-365-integration.txt",
+      "fetched_unix": 1777287396
+    },
+    {
+      "url": "https://magicfuse.co/blog/overview-of-salesforce-lightning",
+      "title": "Salesforce Lightning: An Overview, Components, and Tutorials",
+      "output_file": "magicfuse.co__blog__overview-of-salesforce-lightning.txt",
+      "fetched_unix": 1777287400
+    },
+    {
+      "url": "https://magicfuse.co/blog/salesforce-agentforce-automation",
+      "title": "How Salesforce Agentforce Can Transform Customer Service with AI-Driven Automation",
+      "output_file": "magicfuse.co__blog__salesforce-agentforce-automation.txt",
+      "fetched_unix": 1777287404
+    },
+    {
+      "url": "https://magicfuse.co/blog/salesforce-appexchange-101-all-you-need-to-know",
+      "title": "Salesforce AppExchange 101: All You Need to Know",
+      "output_file": "magicfuse.co__blog__salesforce-appexchange-101-all-you-need-to-know.txt",
+      "fetched_unix": 1777287409
+    },
+    {
+      "url": "https://magicfuse.co/blog/salesforce-appexchange-development",
+      "title": "Step-by-Step Guide to Salesforce AppExchange Development and Promotion",
+      "output_file": "magicfuse.co__blog__salesforce-appexchange-development.txt",
+      "fetched_unix": 1777287413
+    },
+    {
+      "url": "https://magicfuse.co/blog/salesforce-b2b-commerce-implementation-guide",
+      "title": "Salesforce B2B Commerce Implementation Guide: Step-by-Step Process for a Successful Launch",
+      "output_file": "magicfuse.co__blog__salesforce-b2b-commerce-implementation-guide.txt",
+      "fetched_unix": 1777287417
+    },
+    {
+      "url": "https://magicfuse.co/blog/salesforce-consultant-london",
+      "title": "Find a Salesforce Consultant in London: Top 15 Picks",
+      "output_file": "magicfuse.co__blog__salesforce-consultant-london.txt",
+      "fetched_unix": 1777287421
+    },
+    {
+      "url": "https://magicfuse.co/blog/salesforce-consulting-rates-around-the-globe",
+      "title": "How Salesforce Consulting Rates Are Different Around The Globe: Value vs. Price",
+      "output_file": "magicfuse.co__blog__salesforce-consulting-rates-around-the-globe.txt",
+      "fetched_unix": 1777287426
+    },
+    {
+      "url": "https://magicfuse.co/blog/salesforce-education-cloud",
+      "title": "What is Salesforce Education Cloud?",
+      "output_file": "magicfuse.co__blog__salesforce-education-cloud.txt",
+      "fetched_unix": 1777287430
+    },
+    {
+      "url": "https://magicfuse.co/blog/salesforce-for-nonprofits-guide",
+      "title": "How to Use Salesforce for Nonprofits and Automate Reporting",
+      "output_file": "magicfuse.co__blog__salesforce-for-nonprofits-guide.txt",
+      "fetched_unix": 1777287434
+    },
+    {
+      "url": "https://magicfuse.co/blog/salesforce-health-check-guide",
+      "title": "How to Optimize Your CRM Security and Performance with a Salesforce Health Check",
+      "output_file": "magicfuse.co__blog__salesforce-health-check-guide.txt",
+      "fetched_unix": 1777287438
+    },
+    {
+      "url": "https://magicfuse.co/blog/salesforce-implementation-guide",
+      "title": "Salesforce Implementation Guide for 2026",
+      "output_file": "magicfuse.co__blog__salesforce-implementation-guide.txt",
+      "fetched_unix": 1777287443
+    },
+    {
+      "url": "https://magicfuse.co/blog/salesforce-marketing-cloud-cost",
+      "title": "Plan Your Budget: Salesforce Marketing Cloud Cost Breakdown and What to Expect",
+      "output_file": "magicfuse.co__blog__salesforce-marketing-cloud-cost.txt",
+      "fetched_unix": 1777287447
+    },
+    {
+      "url": "https://magicfuse.co/blog/salesforce-sales-cloud-vs-salesforce-service-cloud",
+      "title": "Salesforce Sales Cloud vs Salesforce Service Cloud: Features, Benefits, and Pricing Overview",
+      "output_file": "magicfuse.co__blog__salesforce-sales-cloud-vs-salesforce-service-cloud.txt",
+      "fetched_unix": 1777287451
+    },
+    {
+      "url": "https://magicfuse.co/blog/salesforce-security-best-practices",
+      "title": "Salesforce Security Best Practices for GDPR, HIPAA, and SOC 2 Compliance",
+      "output_file": "magicfuse.co__blog__salesforce-security-best-practices.txt",
+      "fetched_unix": 1777287456
+    },
+    {
+      "url": "https://magicfuse.co/blog/service-cloud-cases",
+      "title": "Salesforce Service Cloud Implementation Success Stories: Before & After Results",
+      "output_file": "magicfuse.co__blog__service-cloud-cases.txt",
+      "fetched_unix": 1777287460
+    },
+    {
+      "url": "https://magicfuse.co/blog/service-cloud-consultants",
+      "title": "Top 20 Salesforce Service Cloud Consultants",
+      "output_file": "magicfuse.co__blog__service-cloud-consultants.txt",
+      "fetched_unix": 1777287465
+    },
+    {
+      "url": "https://magicfuse.co/blog/service-cloud-implementation-partners",
+      "title": "Top Salesforce Service Cloud Implementation Partners",
+      "output_file": "magicfuse.co__blog__service-cloud-implementation-partners.txt",
+      "fetched_unix": 1777287469
+    },
+    {
+      "url": "https://magicfuse.co/blog/servicenow-integration",
+      "title": "ServiceNow Integration With Salesforce: Streamlining IT and Customer Service Workflows",
+      "output_file": "magicfuse.co__blog__servicenow-integration.txt",
+      "fetched_unix": 1777287473
+    },
+    {
+      "url": "https://magicfuse.co/blog/solutions-you-can-build-with-salesforce-einstein-ai",
+      "title": "What Solutions You Can Build with Salesforce Einstein AI",
+      "output_file": "magicfuse.co__blog__solutions-you-can-build-with-salesforce-einstein-ai.txt",
+      "fetched_unix": 1777287477
+    },
+    {
+      "url": "https://magicfuse.co/blog/the-ultimate-guide-to-salesforce-test-automation",
+      "title": "Salesforce Test Automation in 2026: Tools, Strategy, and Best Practices",
+      "output_file": "magicfuse.co__blog__the-ultimate-guide-to-salesforce-test-automation.txt",
+      "fetched_unix": 1777287482
+    },
+    {
+      "url": "https://magicfuse.co/blog/top-agentforce-use-cases",
+      "title": "Top Agentforce Use Cases for Streamlining Business Operations",
+      "output_file": "magicfuse.co__blog__top-agentforce-use-cases.txt",
+      "fetched_unix": 1777287486
+    },
+    {
+      "url": "https://magicfuse.co/blog/top-companies-by-industry",
+      "title": "Best Salesforce Consulting Companies by Industry",
+      "output_file": "magicfuse.co__blog__top-companies-by-industry.txt",
+      "fetched_unix": 1777287491
+    },
+    {
+      "url": "https://magicfuse.co/blog/top-of-the-salesforce-apps-list",
+      "title": "How to Get Your App to the Top of the Salesforce Apps List",
+      "output_file": "magicfuse.co__blog__top-of-the-salesforce-apps-list.txt",
+      "fetched_unix": 1777287495
+    },
+    {
+      "url": "https://magicfuse.co/blog/top-salesforce-consulting-companies",
+      "title": "TOP 10 Salesforce Consulting Companies for 2026",
+      "output_file": "magicfuse.co__blog__top-salesforce-consulting-companies.txt",
+      "fetched_unix": 1777287500
+    },
+    {
+      "url": "https://magicfuse.co/blog/top-salesforce-development-companies",
+      "title": "Top 20 Salesforce Development Companies: Your Complete Guide",
+      "output_file": "magicfuse.co__blog__top-salesforce-development-companies.txt",
+      "fetched_unix": 1777287504
+    },
+    {
+      "url": "https://magicfuse.co/blog/top-salesforce-implementation-partners",
+      "title": "Top Salesforce Implementation Partners 2025: Experts in Salesforce Success",
+      "output_file": "magicfuse.co__blog__top-salesforce-implementation-partners.txt",
+      "fetched_unix": 1777287508
+    },
+    {
+      "url": "https://magicfuse.co/blog/top-salesforce-marketing-cloud-consultants",
+      "title": "Navigating Excellence: The Top Salesforce Marketing Cloud Consultants in 2026",
+      "output_file": "magicfuse.co__blog__top-salesforce-marketing-cloud-consultants.txt",
+      "fetched_unix": 1777287512
+    },
+    {
+      "url": "https://magicfuse.co/blog/what-is-salesforce-commerce-cloud",
+      "title": "Salesforce Commerce Cloud 101: Key Features and Benefits",
+      "output_file": "magicfuse.co__blog__what-is-salesforce-commerce-cloud.txt",
+      "fetched_unix": 1777287516
+    },
+    {
+      "url": "https://magicfuse.co/blog/what-is-salesforce-engage",
+      "title": "What is Salesforce Engage: Why It's Important For Your Marketing & Sales Teams",
+      "output_file": "magicfuse.co__blog__what-is-salesforce-engage.txt",
+      "fetched_unix": 1777287520
+    },
+    {
+      "url": "https://magicfuse.co/blog/what-is-salesforce-journey-builder-and-why-marketers-use-it",
+      "title": "What is Salesforce Journey Builder and Why Marketers Use It",
+      "output_file": "magicfuse.co__blog__what-is-salesforce-journey-builder-and-why-marketers-use-it.txt",
+      "fetched_unix": 1777287525
+    },
+    {
+      "url": "https://magicfuse.co/blog/what-is-salesforce-marketing-cloud",
+      "title": "What is Salesforce Marketing Cloud And Why You Need It in 2024",
+      "output_file": "magicfuse.co__blog__what-is-salesforce-marketing-cloud.txt",
+      "fetched_unix": 1777287529
+    },
+    {
+      "url": "https://magicfuse.co/blog/what-is-salesforce-pardot-and-why-marketers-love-using-it",
+      "title": "What is Salesforce Pardot And Why Marketers Love It",
+      "output_file": "magicfuse.co__blog__what-is-salesforce-pardot-and-why-marketers-love-using-it.txt",
+      "fetched_unix": 1777287533
+    },
+    {
+      "url": "https://magicfuse.co/blog/what-is-salesforce-product-development-outsourcer-pdo",
+      "title": "What is Salesforce Product Development Outsourcer (PDO)?",
+      "output_file": "magicfuse.co__blog__what-is-salesforce-product-development-outsourcer-pdo.txt",
+      "fetched_unix": 1777287537
+    }
+  ]
+}
